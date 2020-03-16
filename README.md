@@ -8,8 +8,4 @@
 * [ERSS耳斯百科](/ERSS-Wiki/)
 * [赞助](/p/pay)
 * [联系我](mailto:xhemj2680@163.com)
-</br>
-<div id="cc-myssl-id">
-      <a href="https://myssl.com/xhemj.gitee.io?from=mysslid" target="_blank"><img src="https://images.gitee.com/uploads/images/2020/0316/200909_e16c4566_5196258.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a>
-      </br></br>
-</div>
+### -BY：Xhemj
