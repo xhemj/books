@@ -1,2 +1,2 @@
 * [主页](/)
-* [主页_英文](README.en.md)
+* [ERSS耳斯百科](/ERSS-Wiki/)
