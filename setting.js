@@ -1,5 +1,5 @@
 window.$docsify = {
-        name: 'Xhemj博客',
+        name: 'Xhemj文档中心',
         repo: '',
         loadSidebar: true,
         loadNavbar: true,
