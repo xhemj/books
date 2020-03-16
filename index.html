@@ -12,12 +12,29 @@
    <div id="app">加载中……</div>
   <script>
     window.$docsify = {
-		basePath: 'https://xhemj.gitee.io/books/',
-		homepage: 'README.md',
-		loadNavbar: false,
-		loadNavbar: 'nav.md',
+        name: 'Xhemj博客',
+        repo: '',
+        loadSidebar: true,
+        loadNavbar: true,
+        subMaxLevel: 2,
+        auto2top: true,
+        relativePath: false,
+        themeColor: '#00bfff',
+        mergeNavbar: true,
+        formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+        externalLinkTarget: '_blank',
+        notFoundPage: true,
+        search: 'auto',
+        search: {
+            maxAge: 86400000,
+            paths: 'auto',
+            placeholder: '搜索...',
+            noData: '未找到结果',
+            namespace: 'Xhemj',
+        },
     }
-  </script>
+
+</script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
