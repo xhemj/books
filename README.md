@@ -1,4 +1,3 @@
-![](https://xhemj.gitee.io/books/logo.png "Xhemj")
 # 欢迎访问 **Xhemj博客**
 > 这只是Xhemj博客而已，也没有什么别的。
 ### 当前页面：[Xhemj博客主页](/)
