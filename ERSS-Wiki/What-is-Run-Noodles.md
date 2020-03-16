@@ -1,5 +1,5 @@
 ## 什么是“跑面”呢？
-![跑面](https://images.gitee.com/uploads/images/2020/0316/153916_00ca2493_5196258.jpeg)
+![跑面](./What-is-Run-Noodles.jpg)
 # 跑面
 ### [pǎo miàn]
 ### 跑面，是一个汉语词汇，拼音为pǎo miàn，英文名为Run-Noodles，最基本解释为人跑步去吃面，其意义还有多重深层解释。
