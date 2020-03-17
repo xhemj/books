@@ -21,8 +21,8 @@ window.$docsify = {
             namespace: 'XhemjBlog',
         },
         pagination: {
-            previousText: '上一个',
-            nextText: '下一个',
+            previousText: '上一篇',
+            nextText: '下一篇',
             crossChapter: true,
             crossChapterText: true,
         },
