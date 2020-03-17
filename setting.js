@@ -3,7 +3,7 @@ window.$docsify = {
         repo: '',
         loadSidebar: true,
         loadNavbar: true,
-        coverpage: false,
+        coverpage: true,
         subMaxLevel: 2,
         auto2top: true,
         relativePath: false,
