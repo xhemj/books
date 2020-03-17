@@ -2,7 +2,7 @@
 #### 个人主页链接：[xhemj](https://space.bilibili.com/226208916)
 > 欢迎大家去观看哦！
 （按照时间顺序，时间由早到晚）
-
+ **
 1.【自制】用木棍来拼成艺术by：xhemj
 https://www.bilibili.com/video/av64694850/
 
@@ -216,4 +216,17 @@ https://www.bilibili.com/video/av94609116/
 71.您的视频被退回且锁定，您的稿件未能通过审核且被锁定（锁定稿件无法被编辑）。
 https://www.bilibili.com/video/av95439932/
 
-72.
+72.疫情期间阿里云免费撸 .网址顶级域名三个！活动还剩20天结束！！
+https://www.bilibili.com/video/av95903219/
+
+73.在B站首页刷新200次会怎么样?B站:实在推荐不了什么了……
+https://www.bilibili.com/video/av96168925/
+
+74.‖从零开始寻找B站漏洞‖第一集：能不能自己在头像上加个小闪电？？
+https://www.bilibili.com/video/av96259218/
+
+75.‖作死挑战‖在FL里一次性播放1604460个音符，“电脑”会怎么样?
+https://www.bilibili.com/video/av96442247/
+
+76.B站如何免费修改个人资料页背景图？-99%的人都不知道的事实
+https://www.bilibili.com/video/av96701293/** 
