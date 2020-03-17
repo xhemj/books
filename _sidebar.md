@@ -5,6 +5,6 @@
 * [ERSS耳斯百科](/ERSS-Wiki/)
     * [什么是跑面？](/ERSS-Wiki/What-is-Run-Noodles)
 * [如何用Git.io来生成自定义后缀名的短网址](/p/Git-io-short-url)
-* [Xhemj发布的所有视频](/p/video/)
+* [Xhemj发布的所有视频](/p/video)
 * [一起Karken这个世界-台词](/p/KrakenSHark)
 * [赞助](/p/pay)
