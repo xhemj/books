@@ -20,4 +20,10 @@ window.$docsify = {
             noData: '未找到结果，换个搜索词试试？',
             namespace: 'XhemjBlog',
         },
+        pagination: {
+            previousText: '上一个',
+            nextText: '下一个',
+            crossChapter: true,
+            crossChapterText: true,
+        },
     }
