@@ -4,5 +4,4 @@
 
 > <span style="line-height:1.8rem;font-weight:400;font-size:1.3rem">这只是Xhemj的文档中心而已，也没有什么别的。<span>
 
-[Star](https://gitee.com/xhemj/xhemj/)
-[Get Started](?id=欢迎访问-xhemj文档中心)
+[进入Xhemj文档中心](?id=欢迎访问-xhemj文档中心)
