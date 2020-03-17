@@ -11,5 +11,5 @@
 * [联系我](mailto:xhemj2680@163.com)
 ### -BY：Xhemj-
 <div id="cc-myssl-id">
-      <a href="https://myssl.com/xhemj.gitee.io?from=mysslid"><img src="/ssl.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a>
+      <a href="https://myssl.com/xhemj.gitee.io?from=mysslid"><img src="https://xhemj.gitee.io/books/ssl.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a>
 </div>
