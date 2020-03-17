@@ -26,4 +26,14 @@ window.$docsify = {
             crossChapter: true,
             crossChapterText: true,
         },
+        dark: {
+    background: "#1c2022",
+    toggleBtnBg: "#34495e",
+    textColor: "#b4b4b4"
+  },
+  light: {
+    background: "white",
+    toggleBtnBg: "var(--theme-color)",
+    textColor: "var(--theme-color)"
+  }
     }
