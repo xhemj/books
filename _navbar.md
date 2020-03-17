@@ -1,4 +1,5 @@
 * [官网](/)  
 * [Gitee](https://gitee.com/xhemj)
+* [ERSS解集](/Solve/)
 * [ERSS耳斯百科](/ERSS-Wiki/)
 * [赞助](/p/pay)
