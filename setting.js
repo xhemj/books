@@ -28,7 +28,7 @@ window.$docsify = {
         },
         dark: {
     background: "#1c2022",
-    toggleBtnBg: "#b4b4b4",
+    toggleBtnBg: "＃34495e",
     textColor: "#b4b4b4"
   },
   light: {
