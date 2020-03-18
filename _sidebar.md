@@ -17,7 +17,7 @@
     * [体育吴老师](/Solve/ty-wls)
     * [美术林老师](/Solve/ms-lls)
     * [英语陈老师](/Solve/yy-cls)
-    * [八年级上册学生之解](/Solve/xxzj)
+    * [八年级上册学生之解](/Solve/xszj)
     * [夏恪分身之解](/Solve/xkfs)
 * [ERSS耳斯百科](/ERSS-Wiki/)
     * [什么是跑面？](/ERSS-Wiki/What-is-Run-Noodles)
