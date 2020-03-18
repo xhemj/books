@@ -1,5 +1,5 @@
 ## 欢迎访问 **ERSS解集** 
-> 本解集收录了厦门市音乐学校2018级八班所有老师的“解”。
+> 本解集收录了厦门市音乐学校2018级八班所有老师和同学的“解”。
 
 ### 目录：
 * [ERSS解集](/Solve/)
@@ -12,4 +12,12 @@
     * [地理吴老师](/Solve/dl-wls)
     * [物理刘老师](/Solve/wl-lls)
     * [历史冉老师](/Solve/ls-rls)
-    * [物理刘老师](/Solve/wl-lls)
+    * [生物林老师](/Solve/sw-lls)
+    * [心理陈老师](/Solve/xl-cls)
+    * [信息罗老师](/Solve/xx-lls)
+    * [基乐老师](/Solve/jy-ls)
+    * [体育吴老师](/Solve/ty-wls)
+    * [美术林老师](/Solve/ms-lls)
+    * [英语陈老师](/Solve/yy-cls)
+    * [八年级上册学生之解](/Solve/xxzj)
+    * [夏恪分身之解](/Solve/xkfs)
