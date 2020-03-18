@@ -1,3 +1,32 @@
+//                        Xhemj文档中心
+//                        基于docsify建立
+//                        ©Xhemj 2020
+//                        https://xhemj.gitee.io/books/
+//                        丨
+//                        丨
+//                        “
+//                        你
+//                        用
+//                        这
+//                        个
+//                        方
+//                        法
+//                        是
+//                        找
+//                        不
+//                        到
+//                        文
+//                        字
+//                        的
+//                        源
+//                        代
+//                        码
+//                        的
+//                        哟
+//                        ！
+//                        ”
+//                        丨
+//                        丨
 window.$docsify = {
         name: 'Xhemj文档中心',
         repo: '',
@@ -27,13 +56,13 @@ window.$docsify = {
             crossChapterText: true,
         },
         dark: {
-    background: "#1c2022",
-    toggleBtnBg: "＃34495e",
-    textColor: "#b4b4b4"
-  },
-  light: {
-    background: "white",
-    toggleBtnBg: "var(--theme-color)",
-    textColor: "var(--theme-color)"
-  }
+            background: "#1c2022",
+            toggleBtnBg: "#34495e",
+            textColor: "#b4b4b4"
+        },
+        light: {
+            background: "white",
+            toggleBtnBg: "var(--theme-color)",
+            textColor: "var(--theme-color)"
+        }
     }
