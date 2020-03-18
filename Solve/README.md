@@ -21,6 +21,6 @@
     * [英语陈老师](/Solve/yy-cls)
     * [八年级上册学生之解](/Solve/xszj)
     * [夏恪分身之解](/Solve/xkfs)
-####  :fa-terminal: 制作：必胜黑恪（xhemj）
-####  :fa-terminal: 策划：布莱恪（布莱恪-偷爷）、夏恪（Oranjezelv）、必胜黑恪（xhemj）
-####  :fa-terminal: ©ERSS、©IYAMAYA、©ICERSS
+#### 丨制作：必胜黑恪（xhemj）
+#### 丨策划：布莱恪（布莱恪-偷爷）、夏恪（Oranjezelv）、必胜黑恪（xhemj）
+#### 丨©ERSS、©IYAMAYA、©ICERSS
