@@ -4,3 +4,12 @@
 ### 目录：
 * [ERSS解集](/Solve/)
     * [数学老王](/Solve/sx-lw)
+    * [数学潘哥](/Solve/sx-pg)
+    * [语文朱老师](/Solve/yw-zls)
+    * [英语俞老师](/Solve/yy-yls)
+    * [政治王老师](/Solve/zz-wls)
+    * [生物吴老师](/Solve/sw-wls)
+    * [地理吴老师](/Solve/dl-wls)
+    * [物理刘老师](/Solve/wl-lls)
+    * [历史冉老师](/Solve/ls-rls)
+    * [物理刘老师](/Solve/wl-lls)
