@@ -244,3 +244,13 @@ https://www.bilibili.com/video/av98397223/
 https://www.bilibili.com/video/av98263909/
 
 81.F̴̧̣̘̮̘̓̑̄͂̒̾̇̈̕o̴̡̢̞͍̻̼͗̀́̒̏̇͝n̵̢͓̮͈͙̘̮͑̀̀̓̋̏̍t̴̼͙̥̭̻̺̅̆̀̓̚ṡ̶̘̳͚̬̤͑͊̐̎͗̄̇͜
+https://www.bilibili.com/video/av98317935/
+
+82.M C 正 版 的 烦 恼
+https://www.bilibili.com/video/av98360030/
+
+83.【配音素材】上好佳广告：一起去Kraken这个世界消音版
+https://www.bilibili.com/video/av98458550/
+
+84.【配音大赛】看"偷胜"如何演绎上好佳沙雕薯片广告:一起去Kraken这个世界！
+https://www.bilibili.com/video/av98456463/
