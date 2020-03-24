@@ -230,3 +230,17 @@ https://www.bilibili.com/video/av96442247/
 
 76.B站如何免费修改个人资料页背景图？-99%的人都不知道的事实
 https://www.bilibili.com/video/av96701293/
+
+77.“Mojang推出免费在线版Minecraft！”以后再也不需要客户端啦？
+https://www.bilibili.com/video/av97528786/
+
+78.真的！小米的铃声竟然这么好听?！
+https://www.bilibili.com/video/av97973551/
+
+79.【手速测试】发 弹 幕 速 度 测 试
+https://www.bilibili.com/video/av98397223/
+
+80.三 个 臭 皮 匠 把 岛 炸 成 浆
+https://www.bilibili.com/video/av98263909/
+
+81.F̴̧̣̘̮̘̓̑̄͂̒̾̇̈̕o̴̡̢̞͍̻̼͗̀́̒̏̇͝n̵̢͓̮͈͙̘̮͑̀̀̓̋̏̍t̴̼͙̥̭̻̺̅̆̀̓̚ṡ̶̘̳͚̬̤͑͊̐̎͗̄̇͜
