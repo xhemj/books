@@ -69,6 +69,6 @@ window.$docsify = {
             copy: '<span> &copy; 2020 Xhemj文档中心</span>',
             auth: '&nbsp;|&nbsp;BY:<a href="https://xhemj.gitee.io/">Xhemj</a>',
             pre: '<hr/>',
-            style: 'a{text-decoration:none!important;}'
+            style: 'textcolor:"#b4b4b4"'
         },
     }
