@@ -65,4 +65,9 @@ window.$docsify = {
             toggleBtnBg: "var(--theme-color)",
             textColor: "var(--theme-color)"
         },
+        footer: {
+            copy: '<span> &copy; 2020 Xhemj文档中心</span>',
+            auth: 'xhemj',
+            pre: '<hr/>',
+        },
     }
