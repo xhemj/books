@@ -66,9 +66,8 @@ window.$docsify = {
             textColor: "var(--theme-color)"
         },
         footer: {
-            copy: '<span> &copy; 2020 Xhemj文档中心</span>',
-            auth: '&nbsp;|&nbsp;BY:<a href="https://xhemj.gitee.io/">Xhemj</a>',
+            copy: '<span> &copy;2020 Xhemj文档中心</span>',
+            auth: '&nbsp;|&nbsp;BY:<strong>Xhemj</strong>',
             pre: '<hr/>',
-            style: 'textcolor:"#b4b4b4"'
         },
     }
