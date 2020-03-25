@@ -66,8 +66,8 @@ window.$docsify = {
             textColor: "var(--theme-color)"
         },
         footer: {
-            copy: '<span> &copy;2020 Xhemj文档中心</span>',
+            copy: '<span> &copy;2020 <strong>Xhemj文档中心</strong></span>',
             auth: '&nbsp;|&nbsp;BY:<strong>Xhemj</strong>',
-            pre: '<hr/>',
+            pre: '</br>',
         },
     }
