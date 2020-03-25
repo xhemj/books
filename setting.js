@@ -1,32 +1,3 @@
-//                        Xhemj文档中心
-//                        基于docsify建立
-//                        ©Xhemj 2020
-//                        https://xhemj.gitee.io/books/
-//                        丨
-//                        丨
-//                        “
-//                        你
-//                        用
-//                        这
-//                        个
-//                        方
-//                        法
-//                        是
-//                        找
-//                        不
-//                        到
-//                        文
-//                        字
-//                        的
-//                        源
-//                        代
-//                        码
-//                        的
-//                        哟
-//                        ！
-//                        ”
-//                        丨
-//                        丨
 window.$docsify = {
         name: 'Xhemj文档中心',
         repo: '',
@@ -41,6 +12,7 @@ window.$docsify = {
         formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
         externalLinkTarget: '_blank',
         notFoundPage: true,
+        //搜索插件
         search: 'auto',
         search: {
             maxAge: 86400000,
@@ -49,12 +21,14 @@ window.$docsify = {
             noData: '未找到结果，换个搜索词试试？',
             namespace: 'XhemjBlog',
         },
+        //底部上下篇插件
         pagination: {
             previousText: '上一篇',
             nextText: '下一篇',
             crossChapter: true,
             crossChapterText: true,
         },
+        //docsify黑暗模式插件
         dark: {
             background: "#1c2022",
             toggleBtnBg: "#34495e",
@@ -65,6 +39,7 @@ window.$docsify = {
             toggleBtnBg: "var(--theme-color)",
             textColor: "var(--theme-color)"
         },
+        //底部公共footer插件
         footer: {
             copy: '<span> &copy;2020 <strong>Xhemj文档中心</strong></span>',
             auth: '&nbsp;|&nbsp;BY:<strong>Xhemj</strong>',
