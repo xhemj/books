@@ -96,15 +96,15 @@
 #### 31.方 块 纪 念 - 纪念Minecraft经典的贴图
 [https://www.bilibili.com/video/av88855358/](https://www.bilibili.com/video/av88855358/)
 
-#### 32.~~av号考古大解密:av1av12av123av1234av12345av123456av1234567av12345678av11111111av22都还在吗?~~
-[【BV时代来了，av走了】致敬av1av12av123av1234av12345av123456av1234567av12345678av11111111av2
-https://www.bilibili.com/video/av88934177/](https://www.bilibili.com/video/av88934177/)
+#### ~~32.av号考古大解密:av1av12av123av1234av12345av123456av1234567av12345678av11111111av22都还在吗?~~
+#### 32.【BV时代来了，av走了】致敬av1av12av123av1234av12345av123456av1234567av12345678av11111111av2
+[https://www.bilibili.com/video/av88934177/](https://www.bilibili.com/video/av88934177/)
 
-#### 33.40张图带你了解什么是bilibili哔哩哔哩!](
-[https://www.bilibili.com/video/av88950432/https://www.bilibili.com/video/av88950432/)
+#### 33.40张图带你了解什么是bilibili哔哩哔哩!
+[https://www.bilibili.com/video/av88950432/](https://www.bilibili.com/video/av88950432/)
 
-#### 34.在线玩游戏?!还有更高端的吗?](
-[https://www.bilibili.com/video/av88916721/https://www.bilibili.com/video/av88916721/)
+#### 34.在线玩游戏?!还有更高端的吗?
+[https://www.bilibili.com/video/av88916721/](https://www.bilibili.com/video/av88916721/)
 
 #### 35.我可能是b站第一个不用FL来编曲的人……但挺好听的哦！新人编曲！
 [https://www.bilibili.com/video/av89030221/](https://www.bilibili.com/video/av89030221/)
