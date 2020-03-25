@@ -63,6 +63,6 @@ window.$docsify = {
         light: {
             background: "white",
             toggleBtnBg: "var(--theme-color)",
-            textColor: "#b4b4b4"
-        }
+            textColor: "var(--theme-color)"
+        },
     }
