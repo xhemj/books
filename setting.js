@@ -42,8 +42,7 @@ window.$docsify = {
          footer: {
             copy: '<span> &copy;2020 <strong>Xhemj文档中心</strong></span>',
             auth: '&nbsp;·&nbsp;<strong>Xhemj</strong>',
-            style:'@import url('https://fonts.loli.net/css?family=Noto+Sans+SC:700&display=swap');'
-            style:'margin-top: 20px; text-align: center;font-family: 'Noto Sans SC', sans-serif;'
             pre: '</br>',
+            style:'margin-top: 20px; text-align: center;'
         },
     }
