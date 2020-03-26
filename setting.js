@@ -28,21 +28,22 @@ window.$docsify = {
             crossChapter: true,
             crossChapterText: true,
         },
-        //docsify黑暗模式插件
-        dark: {
-            background: "#1c2022",
-            toggleBtnBg: "#34495e",
-            textColor: "#b4b4b4"
-        },
-        light: {
-            background: "white",
-            toggleBtnBg: "var(--theme-color)",
-            textColor: "var(--theme-color)"
-        },
-        //底部公共footer插件
-        footer: {
+//        //docsify黑暗模式插件
+//        dark: {
+//            background: "#1c2022",
+//            toggleBtnBg: "#34495e",
+//            textColor: "#b4b4b4"
+//        },
+//        light: {
+//            background: "white",
+//            toggleBtnBg: "var(--theme-color)",
+//            textColor: "var(--theme-color)"
+//        },        //底部公共footer插件
+         footer: {
             copy: '<span> &copy;2020 <strong>Xhemj文档中心</strong></span>',
-            auth: '&nbsp;|&nbsp;BY:<strong>Xhemj</strong>',
+            auth: '&nbsp;·&nbsp;<strong>Xhemj</strong>',
+            style:'@import url('https://fonts.loli.net/css?family=Noto+Sans+SC:700&display=swap');'
+            style:'margin-top: 20px; text-align: center;font-family: 'Noto Sans SC', sans-serif;'
             pre: '</br>',
         },
     }
