@@ -8,7 +8,8 @@
 - [Gitee仓库概况](#Gitee仓库概况)
 - [精选页面](#精选页面)
 - [特别感谢](#特别感谢)
-
+### 当前网站预览：
+[xhemj website](https://xhemj.gitee.io/ ':include :type=iframe width=100% height=400px')
 ### 什么是Xhemj的网站？
 “这只是Xhemj的网站而已，也没有什么别的。Xhemj亲手制作的哦！”
 Xhemj的网站是Xhemj自己建立的网站，
@@ -29,10 +30,10 @@ Xhemj网站里面有一些Xhemj自创的文章、网页等。欢迎查看哦！
 <h4><a href="https://xhemj.gitee.io/base/footer.html" target="_blank">公共Footer</a></br></h4>
 
 ### 特别感谢
-[1]三合一收款码源码：https://github.com/mengkunsoft/OneQRCode
-[2]基础框架源码：https://www.bootcss.com/丨https://www.urlgot.cn/
-[3]Google字体镜像：https://css.loli.net/
-[4]SM.MS图床：https://sm.ms/
-[5]Xhemj Blog：https://www.cnblogs.com/xhemj/
-[6]Gitee码云：https://gitee.com/
+[1]三合一收款码源码：https://github.com/mengkunsoft/OneQRCode</br>
+[2]基础框架源码：https://www.bootcss.com/丨https://www.urlgot.cn/</br>
+[3]Google字体镜像：https://css.loli.net/</br>
+[4]SM.MS图床：https://sm.ms/</br>
+[5]Xhemj Blog：https://www.cnblogs.com/xhemj/</br>
+[6]Gitee码云：https://gitee.com/</br>
 [返回顶部](#top)
