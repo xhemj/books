@@ -67,6 +67,29 @@
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e66487622fc0422">
 		//社会化分享插件
 	</script>
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '5cf3ea00581c538fe30c',
+      clientSecret: 'ef845040574adf85d87ef7b6c78ad59d8bf7aec1',
+      repo: 'books',
+      owner: 'xhemj',
+      admin: ['xhemj'],
+      title: location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: location.hash.match(/#(.*?)([?]|$)/)[1],
+    })
+    // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+    window.onhashchange = function(event){
+      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+        location.reload()
+      }
+    }
+    // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
+    // gitalk.render('gitalk-container')
+  </script>
 </body>
 
 </html>
