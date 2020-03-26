@@ -4,7 +4,7 @@ window.$docsify = {
         loadSidebar: true,
         loadNavbar: true,
         coverpage: true,
-        subMaxLevel: 4,
+        subMaxLevel: 2,
         auto2top: true,
         relativePath: false,
         themeColor: '#c30aff',
