@@ -38,7 +38,8 @@ window.$docsify = {
 //            background: "white",
 //            toggleBtnBg: "var(--theme-color)",
 //            textColor: "var(--theme-color)"
-//        },        //底部公共footer插件
+//        },
+        //底部公共footer插件
          footer: {
             copy: '<span> &copy;2020 <strong>Xhemj文档中心</strong></span>',
             auth: '&nbsp;·&nbsp;<strong>Xhemj</strong>',
