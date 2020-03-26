@@ -8,8 +8,6 @@
 - [Gitee仓库概况](#Gitee仓库概况)
 - [精选页面](#精选页面)
 - [特别感谢](#特别感谢)
-### 当前网站预览：
-[xhemj website](https://xhemj.gitee.io/ ':include :type=iframe width=100% height=400px')
 ### 什么是Xhemj的网站？
 “这只是Xhemj的网站而已，也没有什么别的。Xhemj亲手制作的哦！”
 Xhemj的网站是Xhemj自己建立的网站，
