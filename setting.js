@@ -47,18 +47,3 @@ window.$docsify = {
             style:'text-align: center;'
         },
     }
-//Gitalk
-    var gitalk = new Gitalk({
-      clientID: '5cf3ea00581c538fe30c',
-      clientSecret: 'ef845040574adf85d87ef7b6c78ad59d8bf7aec1',
-      repo: 'books',
-      owner: 'xhemj',
-      admin: ['xhemj'],
-      title: location.hash.match(/#(.*?)([?]|$)/)[1],
-      id: 'xhemj',
-    })
-    window.onhashchange = function(event){
-      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
-        location.reload()
-      }
-    }
