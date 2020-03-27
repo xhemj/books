@@ -51,17 +51,17 @@
 	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/zoom-image.min.js">
 		//图片放大插件
 	</script>
-	<script src="//xhemj.gitee.io/static/npm/docsify-copy-code">
+	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-copy-code.js">
 		//复制代码插件
 	</script>
 	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/emoji.min.js">
 		//表情插件
 	</script>
-	<script src="//xhemj.gitee.io/static/docsify-pagination/dist/docsify-pagination.min.js">
+	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-pagination.min.js">
 		//底部上下篇插件
 	</script>
 	<!-- <script src="//xhemj.gitee.io/static/npm/docsify-dark-mode/dist/index.min.js">//docsify黑暗模式插件</script> -->
-	<script src="//xhemj.gitee.io/static/docsify-footer-enh/dist/docsify-footer-enh.min.js">
+	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-footer-enh.min.js">
 		//底部公共footer插件
 	</script>
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e66487622fc0422">
@@ -72,7 +72,22 @@
 	<!-- Gitalk评论插件 -->
 	<div id="Gitalk"></div>
 	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/gitalk.min.js"></script>
-
+<script>
+    var gitalk = new Gitalk({
+      clientID: '5cf3ea00581c538fe30c',
+      clientSecret: 'ef845040574adf85d87ef7b6c78ad59d8bf7aec1',
+      repo: 'books',
+      owner: 'xhemj',
+      admin: ['xhemj'],
+      title: location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: 'xhemj',
+    })
+    window.onhashchange = function(event){
+      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+        location.reload()
+      }
+    }
+</script>
 </body>
 
 </html>
