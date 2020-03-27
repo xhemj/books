@@ -265,4 +265,8 @@
 #### 86.【1小时循环】握着我的抱枕~~~~.GIF
 [https://www.bilibili.com/video/BV1Z7411m7He/](https://www.bilibili.com/video/BV1Z7411m7He/)</br>
 [https://www.bilibili.com/video/av98706392/](https://www.bilibili.com/video/av98706392/)
+
+#### 87.用IE8访问b站会怎么样？竟然发现了2233娘的彩蛋！！
+[https://www.bilibili.com/video/av455008452/](https://www.bilibili.com/video/av455008452/)</br>
+[https://www.bilibili.com/video/BV1z541167Za/](https://www.bilibili.com/video/BV1z541167Za/)
 ***
