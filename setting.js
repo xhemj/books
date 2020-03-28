@@ -46,4 +46,7 @@ window.$docsify = {
             pre: '</br>',
             style:'text-align: center;'
         },
+        remoteMarkdown: {
+    tag: 'md',
+  },
     }
