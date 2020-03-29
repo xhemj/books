@@ -18,7 +18,8 @@ const HOSTNAME_WHITELIST = [
   'github.com',
   'github.io',
   'gitee.com',
-  'gitee.io'
+  'gitee.io',
+  'api.github.com'
 ]
 
 // The Util Function to hack URLs of intercepted requests
