@@ -16,7 +16,7 @@ window.$docsify = {
         search: 'auto',
         search: {
             maxAge: 86400000,
-            paths: 'auto',
+            paths: '/',
             placeholder: '搜索...',
             noData: '未找到结果，换个搜索词试试？',
             namespace: 'XhemjBlog',
