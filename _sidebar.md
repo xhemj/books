@@ -5,5 +5,5 @@
 * [如何用Git.io来生成自定义后缀名的短网址](/p/Git-io-short-url)
 * [Xhemj发布的所有视频](/p/video)
 * [一起Karken这个世界-台词](/p/KrakenSHark)
-* [关于xhemj](/p/about-me.md) {docsify-ignore}
+* [关于xhemj](/p/about-me.md)
 * [赞助](/p/pay)
