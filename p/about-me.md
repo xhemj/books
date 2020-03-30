@@ -8,7 +8,7 @@
  - 微博：xhemj
  - Minecraft：xhemj
 ## 个人人设：
-![xhemj-skin]()
+![xhemj-skin](/img/xhemj-skin.png)
  - Minecraft皮肤：[xhemj-skin](https://zh-cn.namemc.com/profile/xhemj.1)
 ## 个人图标
 <img src="/logo.png" width="150">
