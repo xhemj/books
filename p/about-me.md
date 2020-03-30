@@ -2,7 +2,7 @@
 ## 联系方式：
  - 国内邮箱：[xhemj2680@163.com](mailto:xhemj2680@163.com)
  - 国外邮箱：[xhemj2680@gmail.com](mailto:xhemj2680@gmil.com)
- - QQ：2680841087
+ - <a href="#"><div onclick="window.open('https://cli.im/api/qrcode/code?text=http://qm.qq.com/cgi-bin/qm/qr?k=hjE7jI02YtA2PkCO0Du6xBg8xrF48zNy&mhid=5BDGX1zrnMshMHcnKNxSPak','QQ：2680841087','height=800,width=470,top=0,right=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no')" style="text-align: center;display: inline-block">QQ：2680841087</div></a>
  - 微信：xhemj2680
  - 哔哩哔哩：xhemj
  - 微博：xhemj
