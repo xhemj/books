@@ -9,6 +9,6 @@
  - Minecraft：xhemj
 ## 个人人设：
 ![xhemj-skin]()
- - Minecraft皮肤：[xhemj](https://mine.ly/xhemj.1)
+ - Minecraft皮肤：[xhemj-skin](https://zh-cn.namemc.com/profile/xhemj.1)
 ## 个人图标
-<img src="https://xhemj.gitee.io/logo.png" width="150">
+<img src="/logo.png" width="150">
