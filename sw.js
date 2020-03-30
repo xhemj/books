@@ -15,6 +15,7 @@ const HOSTNAME_WHITELIST = [
   's7.addthis.com',
   'hm.baidu.com',
   'fonts.loli.net',
+  'docsify.js.org',
   'github.com',
   'github.io',
   'gitee.com',
