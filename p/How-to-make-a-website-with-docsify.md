@@ -18,3 +18,47 @@ Docsify</br>
 没有生成静态的html文件</br>
 主题丰富</br>
 ## 教程：
+如果你想在本地搭建：</br>
+npm安装：</br>
+```bash
+npm i docsify-cli -g
+```
+初始化：</br>
+```bash
+docsify init ./docs
+```
+本地预览：</br>
+```bash
+docsify serve docs
+```
+进入`http://localhost:3000`就能看到效果咯！</br>
+
+如果你想在托管在网上：</br>
+这里以码云Gitee为例</br>
+新建一个`index.html`内容为：</br>
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      //...
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
+```
+CDN可以选择：</br>
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+```
