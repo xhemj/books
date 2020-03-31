@@ -12,6 +12,8 @@ const HOSTNAME_WHITELIST = [
   'xhemj.gitee.io',
   'unpkg.com',
   'cdn.jsdelivr.net',
+  'cdnjs.cloudflare.com',
+  'cdnjs.com',
   's7.addthis.com',
   'hm.baidu.com',
   'fonts.loli.net',
