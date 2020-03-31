@@ -10,4 +10,3 @@
 * [赞助](/p/pay)
 * [联系我](mailto:xhemj2680@163.com)
 ## -BY：Xhemj-
-</br><div class="social-share" style="text-align: center;"></div>
