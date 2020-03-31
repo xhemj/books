@@ -9,5 +9,5 @@
 * [ERSS耳斯百科](/ERSS-Wiki/)
 * [赞助](/p/pay)
 * [联系我](mailto:xhemj2680@163.com)
-[md](https://xhemj.gitee.io/books/share.md)
+
 ## -BY：Xhemj-
