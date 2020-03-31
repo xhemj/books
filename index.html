@@ -25,27 +25,6 @@
   s.parentNode.insertBefore(hm, s);
 })();
 	</script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script type="text/javascript">
-		$(window).bind("load", function() {
-	var footerHeight = 0;
-	var footerTop = 0;
-	positionFooter();
-	function positionFooter() {
-	// 获取页脚的高度
-	footerHeight = $(".footer").height();
-	// 获取页脚的高度
-	//scrollTop() 设置或获取位于对象最顶端和窗口中可见内容的最顶端之间的距离
-	footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
-	//如果页面内容高度小于屏幕高度，div#footer将绝对定位到屏幕底部，否则div#footer保留它的正常静态定位
-	if(($(document.body).height()+footerHeight) < $(window).height()) {
-			$(".footer").css({ position: "absolute",left:"0" }).stop().css({top:footerTop});
-			}
-		}
-			$(window).scroll(positionFooter).resize(positionFooter);
-		});
-
-	</script>
 	<meta name="description" content="欢迎来到Xhemj文档中心。这只是Xhemj的文档中心而已，也没有什么别的。Xhemj亲手制作的哦！This is just Xhemj's website, and nothing else. Xhemj made it himself!"
 	/>
 	<link rel="icon" href="https://xhemj.gitee.io/logo.svg" type="image/x-icon" />
@@ -124,32 +103,6 @@
     -->
 	</div>
 </body>
-<footer>
 
-	<style>
-		.share {
-			padding-right: 15px;
-			padding-left: 15px;
-			margin-right: auto;
-			margin-left: auto;
-			text-align: center;
-		}
-	</style>
-	<div class="share" id="social-share">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
-		<div class="social-share"></div>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
-		<script>
-			var cfg = {
-            sites: ['qq', 'qzone', 'wechat', 'weibo', 'facebook', 'twitter'],
-            image: "https://xhemj.gitee.io/logo.png",
-            wechatQrcodeTitle: "分享",
-            wechatQrcodeHelper: "使用微信扫一扫分享"}
-		</script>
-		<script>
-			socialShare('.social-share', cfg);
-		</script>
-	</div>
-</footer>
 
 </html>
