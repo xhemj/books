@@ -8,7 +8,7 @@
 -->
 
 <head>
-    <!-- 
+	<!-- 
     <script>
 		if (typeof navigator.serviceWorker !== 'undefined') {
     navigator.serviceWorker.register('sw.js')
@@ -24,6 +24,27 @@
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+	</script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).bind("load", function() {
+	var footerHeight = 0;
+	var footerTop = 0;
+	positionFooter();
+	function positionFooter() {
+	// 获取页脚的高度
+	footerHeight = $(".footer").height();
+	// 获取页脚的高度
+	//scrollTop() 设置或获取位于对象最顶端和窗口中可见内容的最顶端之间的距离
+	footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
+	//如果页面内容高度小于屏幕高度，div#footer将绝对定位到屏幕底部，否则div#footer保留它的正常静态定位
+	if(($(document.body).height()+footerHeight) < $(window).height()) {
+			$(".footer").css({ position: "absolute",left:"0" }).stop().css({top:footerTop});
+			}
+		}
+			$(window).scroll(positionFooter).resize(positionFooter);
+		});
+
 	</script>
 	<meta name="description" content="欢迎来到Xhemj文档中心。这只是Xhemj的文档中心而已，也没有什么别的。Xhemj亲手制作的哦！This is just Xhemj's website, and nothing else. Xhemj made it himself!"
 	/>
@@ -44,41 +65,42 @@
 </head>
 
 <body>
-	<div id="app">
-		<strong>正在加载中……</strong>
-	</div>
-	<script src="//xhemj.gitee.io/books/setting.js">
-		//docsify设置
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/docsify.min.js">
-		//docsify主文件
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/search.min.js">
-		//搜索插件
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/zoom-image.min.js">
-		//图片放大插件
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-copy-code.js">
-		//复制代码插件
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/emoji.min.js">
-		//表情插件
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-pagination.min.js">
-		//底部上下篇插件
-	</script>
-	<!-- <script src="//xhemj.gitee.io/static/npm/docsify-dark-mode/dist/index.min.js">//docsify黑暗模式插件</script> -->
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-footer-enh.min.js">
-		//底部公共footer插件
-	</script>
-	<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-remote-markdown.min.js">
-		//读取远程Markdown插件
-	</script>
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e66487622fc0422">
-		//社会化分享插件
-	</script>
-<!-- 
+	<div class="content">
+		<div id="app">
+			<strong>正在加载中……</strong>
+		</div>
+		<script src="//xhemj.gitee.io/books/setting.js">
+			//docsify设置
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/docsify.min.js">
+			//docsify主文件
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/search.min.js">
+			//搜索插件
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/zoom-image.min.js">
+			//图片放大插件
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-copy-code.js">
+			//复制代码插件
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/emoji.min.js">
+			//表情插件
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-pagination.min.js">
+			//底部上下篇插件
+		</script>
+		<!-- <script src="//xhemj.gitee.io/static/npm/docsify-dark-mode/dist/index.min.js">//docsify黑暗模式插件</script> -->
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-footer-enh.min.js">
+			//底部公共footer插件
+		</script>
+		<script src="//xhemj.gitee.io/static/docsify/lib/plugins/docsify-remote-markdown.min.js">
+			//读取远程Markdown插件
+		</script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e66487622fc0422">
+			//社会化分享插件
+		</script>
+		<!-- 
 	<link rel="stylesheet" href="//xhemj.gitee.io/static/gitalk/dist/gitalk.css">
 	<script src="//xhemj.gitee.io/static/gitalk/dist/gitalk.min.js"></script>
 	<div id="Gitalk"></div>
@@ -100,6 +122,34 @@
     }
 	</script>
     -->
+	</div>
 </body>
+<footer>
+
+	<style>
+		.share {
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+		}
+	</style>
+	<div class="share" id="social-share">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+		<div class="social-share"></div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+		<script>
+			var cfg = {
+            sites: ['qq', 'qzone', 'wechat', 'weibo', 'facebook', 'twitter'],
+            image: "https://xhemj.gitee.io/logo.png",
+            wechatQrcodeTitle: "分享",
+            wechatQrcodeHelper: "使用微信扫一扫分享"}
+		</script>
+		<script>
+			socialShare('.social-share', cfg);
+		</script>
+	</div>
+</footer>
 
 </html>
