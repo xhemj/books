@@ -20,6 +20,7 @@ const HOSTNAME_WHITELIST = [
   'docsify.js.org',
   'github.com',
   'github.io',
+  'avatars1.githubusercontent.com',
   'gitee.com',
   'gitee.io',
   'api.github.com',
