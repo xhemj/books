@@ -72,9 +72,39 @@
 		<script src="https://unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js">
 			//读取远程Markdown插件
 		</script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e66487622fc0422">
+		<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e66487622fc0422">
 			//社会化分享插件
+		</script> -->
+
+        
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+		<script>
+			var cfg = {
+			sites: ['qq', 'qzone', 'wechat', 'weibo', 'facebook', 'twitter'],
+			wechatQrcodeTitle: "分享",
+			wechatQrcodeHelper: "使用微信扫一扫分享",
+            image: "https://xhemj.gitee.io/logo.png",
+			}
+			socialShare('.social-share', cfg);
 		</script>
+
+        
+	<div id="social-share" style="text-align: center;">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+		<div class="social-share"></div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+		<script>
+			var cfg = {
+			sites: ['qq', 'qzone', 'wechat', 'weibo', 'facebook', 'twitter'],
+			wechatQrcodeTitle: "分享",
+			wechatQrcodeHelper: "使用微信扫一扫分享",
+			url: "https://xhemj.gitee.io/"
+			}
+			socialShare('.social-share', cfg);
+		</script>
+	</div>
+
 <!--
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.6.2/gitalk.css">
