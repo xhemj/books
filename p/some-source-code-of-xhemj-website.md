@@ -1,3 +1,5 @@
+# xhemj网站使用的一些功能的源码
+## 1.Social-Share社会化分享插件
 ```html
 <div id="social-share" style="text-align: center;">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
@@ -13,3 +15,4 @@
 	</script>
 </div>
 ```
+> 开源地址：[https://github.com/overtrue/share.js](https://github.com/overtrue/share.js)
