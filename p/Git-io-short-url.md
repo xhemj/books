@@ -7,3 +7,4 @@
 2.执行以下命令`$ curl -i https://git.io -F url="URL" -F "code=CODE"`，其中`URL`为上方生成的链接，`CODE`为你自己自定义的链接，如`$ curl -i https://git.io -F url="http://xhemj.github.io/go.html?url=https://xhemj.gitee.io/ERSS-Wiki/" -F "code=wacsh"`</br>
 ![](/img/Git-io-short-url.jpg)</br>
 3.最终效果是有没有成功见上方`Location: https://git.io/wacsh`显示的链接为准，很可能会生成失败，`wacsh`就是你自己定义的`CODE`。后就可以通过`git.io/wacsh`来访问`http://xhemj.github.io/go.html?url=https://xhemj.gitee.io/ERSS-Wiki/`了哦！！</br>
+[md](https://xhemj.gitee.io/books/share.md)
