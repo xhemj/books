@@ -102,7 +102,8 @@ CDN可以选择：</br>
 ```
 后创建一个文件叫做`_sidebar.md`，将你的文件输入进去：
 
-```markdown
+
+```
 * [Home](/)
 * [Guide](guide.md)
 ```
