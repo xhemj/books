@@ -463,7 +463,7 @@ footer: {
 实测`copy`和`auth`可以随便写</br>
 写什么文字代码都可以</br>
 `pre`是正文和Footer的分割线，默认`<hr>`</br>
-效果可以见[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)</br>
+效果可以见[https://xhemj.gitee.io/books/#/p/How-to-Use-Docsify.md](https://xhemj.gitee.io/books/#/p/How-to-Use-Docsify.md)</br>
 ## 结尾
 基本上配置就是这样了！本文当基于[官方文档](https://docsify.js.org/)书写</br>
 要是有什么说不到位的欢迎私信我或者发邮件到[xhemj2680@163.com](mailto:xhemj2680@163.com)哦！</br>
