@@ -105,6 +105,7 @@ CDN可以选择：</br>
 * [Home](/)
 * [Guide](guide.md)
 ```
+
 `_sidebar.md`的加载逻辑是从每层目录下获取文件，如果当前目录不存在该文件则回退到上一级目录。</br>
 例如当前路径为`/zh-cn/more-pages`则从`/zh-cn/_sidebar.md`获取文件，如果不存在则从`/_sidebar.md`获取。</br>
 
