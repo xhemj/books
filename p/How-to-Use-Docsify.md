@@ -351,7 +351,7 @@ namespace: 'XhemjBlog',
 ```
 效果就是点击一下图片可以放大</br>
 如：</br>
-![logo](https://docsify.js.org/_media/icon.svg]</br>
+![logo](https://docsify.js.org/_media/icon.svg)</br>
 如果不想缩放可以设置：</br>
 ```markdown
 ![](image.png ":no-zoom")
