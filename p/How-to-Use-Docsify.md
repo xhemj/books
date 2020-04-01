@@ -442,10 +442,7 @@ remoteMarkdown: {
 [你设置的tag，如：md](https://domain.com/markdown.md)
 ```
 效果如上方的分享插件就可以直接链接：</br>
-[md](https://xhemj.gitee.io/share.md)</br>
 而不用写分享代码</br>
-源文件是：[https://xhemj.gitee.io/share.md](https://xhemj.gitee.io/share.md)</br>
-### 底部公共Footer插件
 ```html
 <script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 ```
@@ -458,7 +455,7 @@ footer: {
             pre: '<hr>',
             style:'text-align: center;'
         },
-}
+	}
 ```
 实测`copy`和`auth`可以随便写</br>
 写什么文字代码都可以</br>
@@ -468,4 +465,8 @@ footer: {
 基本上配置就是这样了！本文当基于[官方文档](https://docsify.js.org/)书写</br>
 要是有什么说不到位的欢迎私信我或者发邮件到[xhemj2680@163.com](mailto:xhemj2680@163.com)哦！</br>
 好看就分享一下吧！</br>
-[md](https://xhemj.gitee.io/books/share.md)</br>
+<div id="social-share" style="text-align: center;">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<div class="social-share" data-sites="qq,qzone,wechat,weibo,facebook,twitter" data-image="https://xhemj.gitee.io/logo.png" data-wechat-qrcode-title="分享" data-wechat-qrcode-helper="使用微信扫一扫分享"></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+</div>
