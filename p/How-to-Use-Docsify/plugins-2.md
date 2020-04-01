@@ -100,7 +100,7 @@ remoteMarkdown: {
 [你设置的tag，如：md](https://domain.com/markdown.md)
 ```
 效果如上方的分享插件就可以直接链接：</br>
-[md](https://xhemj.gitee.io/share.md)</br>
+
 而不用写分享代码</br>
 源文件是：[https://xhemj.gitee.io/share.md](https://xhemj.gitee.io/share.md)</br>
 ### 底部公共Footer插件
