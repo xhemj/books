@@ -466,7 +466,7 @@ footer: {
 基本上配置就是这样了！本文当基于[官方文档](https://docsify.js.org/)书写</br>
 要是有什么说不到位的欢迎私信我或者发邮件到[xhemj2680@163.com](mailto:xhemj2680@163.com)哦！</br>
 好看就分享一下吧！</br>
-<div id="social-share" style="text-align: center;">
+<div id="social-share" style="text-align: left;">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
 <div class="social-share" data-sites="qq,qzone,wechat,weibo,facebook,twitter" data-image="https://xhemj.gitee.io/logo.png" data-wechat-qrcode-title="分享" data-wechat-qrcode-helper="使用微信扫一扫分享"></div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
