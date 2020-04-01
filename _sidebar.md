@@ -2,6 +2,8 @@
 * [Xhemj的网站简介](/p/about-xhemj-website)
 * [ERSS解集](/Solve/)
 * [ERSS耳斯百科](/ERSS-Wiki/)
+* [使用Docsify做文档网站的详细配置教程](p/How-to-Use-Docsify)
+* [常用APIS](/p/apis)
 * [如何用Git.io来生成自定义后缀名的短网址](/p/Git-io-short-url)
 * [Xhemj发布的所有视频](/p/video)
 * [一起Karken这个世界-台词](/p/KrakenSHark)
