@@ -1,10 +1,20 @@
 # 使用Docsify做文档网站的详细配置教程
+
+> 作者：xhemj
+
 没错，它叫Docsify。</br>
 ![logo](https://docsify.js.org/_media/icon.svg)</br>
 [xhemj的文档中心](https://xhemj.gitee.io/books)就是用这个写的</br>
 > 开源地址：[https://github.com/docsifyjs/docsify/](https://github.com/docsifyjs/docsify/)</br>
 > 官方Demo：[https://docsify.js.org/](https://docsify.js.org/)</br>
-## 官方说明：
+## 目录
+- [官方说明](#官方说明)
+- [安装](#安装)
+- [如何写文章](#如何写文章)
+- [个性化](#个性化)
+- [插件](#插件)
+- [结尾](#结尾)
+## 官方说明
 ```text
 Docsify
 A magical documentation site generator.
@@ -17,7 +27,7 @@ Docsify</br>
 简单轻巧（~21kB）</br>
 没有生成静态的html文件</br>
 主题丰富</br>
-## 教程：
+## 安装
 ### 本地搭建
 如果你想在本地搭建：</br>
 npm安装：</br>
@@ -73,8 +83,8 @@ CDN可以选择：</br>
 /hello.md  =>  domain.com/#/hello
 /hello/hi.md  =>  domain.com/#/hello/hi
 ```
-如本教程文章Markdown文件为：[https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md](https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md)
-渲染成：[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)
+如本教程文章Markdown文件为：[https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md](https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md)</br>
+渲染成：[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)</br>
 ## 个性化
 ### 自定义加载文字
 只需在`index.html`中新增：</br>
@@ -168,6 +178,32 @@ CDN可以选择：</br>
 ```
 `_navbar.md`的加载逻辑是从每层目录下获取文件，如果当前目录不存在该文件则回退到上一级目录。</br>
 例如当前路径为`/zh-cn/more-pages`则从`/zh-cn/_navbar.md`获取文件，如果不存在则从`_navbar.md`获取。</br>
+### 封面
+设置：
+```html
+window.$docsify = {
+    coverpage: true,
+}
+```
+后再根目录创建`_coverpage.md`
+输入内容就可以显示在封面了
+效果见[https://xhemj.gitee.io/books/](https://xhemj.gitee.io/books/)
+### 主题颜色
+设置：
+```html
+window.$docsify = {
+    themeColor: '#c30aff',
+}
+```
+`#c30aff`就是主题的颜色了
+### 外链打开方式
+设置：
+```html
+window.$docsify = {
+	externalLinkTarget: '_blank',
+}
+```
+`_blank`表示在新标签页中打开
 ## 插件
 ### 表情插件
 先在在`index.html`中新增：</br>
@@ -242,7 +278,7 @@ search : [
 2.`maxAge: 86400000,`到期时间（官方这么说），不用改动</br>
 3.`paths: [], `可以设置搜索的目录，或设置`auto`或`/`，貌似和`search:[]`一样？</br>
 4.搜索框的提示</br>
-`placeholder: 'Type to search',`
+`placeholder: 'Type to search',`</br>
 或：</br>
 ```html
 placeholder: {
@@ -280,4 +316,156 @@ noData: '未找到结果，换个搜索词试试？',
 namespace: 'XhemjBlog',
 	},
 ```
-### 
+### Google Analytics
+就是谷歌统计</br>
+直接新增：</br>
+```html
+<script>
+  window.$docsify = {
+    ga: 'UA-XXXXX-Y'
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+```
+`ga: 'UA-XXXXX-Y'`就是谷歌统计的编号</br>
+或：</br>
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-XXXXX-Y"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+```
+`ga: 'UA-XXXXX-Y'`=`data-ga="UA-XXXXX-Y"`
+### 外链脚本插件
+如果你需要在`.md`文件中引用如：</br>
+```html
+<script src="https://domain.com/xxx.js" ></script>
+```
+安装：</br>
+```
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+```
+> 照这样看来是可以在`.md`中写`.html`的……
+
+### 图片缩放插件
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+```
+效果就是点击一下图片可以放大</br>
+如：</br>
+![logo](https://docsify.js.org/_media/icon.svg]</br>
+如果不想缩放可以设置：</br>
+```markdown
+![](image.png ":no-zoom")
+```
+### 复制代码插件
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+```
+效果可以自己看上面的所有代码</br>
+### Disqus评论插件
+```html
+<script>
+  window.$docsify = {
+    disqus: 'shortname'
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+```
+详见：[https://disqus.com/](https://disqus.com/)</br>
+### Gitalk评论插件
+```html
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'Github Application Client ID',
+    clientSecret: 'Github Application Client Secret',
+    repo: 'Github repo',
+    owner: 'Github repo owner',
+    admin: ['Github repo collaborators, only these guys can initialize github issues'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
+</script>
+```
+可以使文章实现评论效果，教程详见：[https://github.com/gitalk/gitalk/](https://github.com/gitalk/gitalk/)</br>
+### 链接下一篇文章插件
+可以再文章底部显示“下一篇”和“上一篇”</br>
+效果见[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)</br>
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+```
+也可以自定义：</br>
+```html
+window.$docsify = {
+pagination: {
+            previousText: '上一篇',
+            nextText: '下一篇',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+	}
+```
+更多插件可以见[https://docsify.js.org/#/awesome?id=plugins](https://docsify.js.org/#/awesome?id=plugins)</br>
+
+!> 以下是我自己使用的插件
+
+### Social Share分享插件
+经过测试，无法直接在`index.html`中嵌入代码</br>
+需要先安装上面的外链脚本插件</br>
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+```
+后在`.md`文件中写下：</br>
+```markdown
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<div class="social-share"></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+```
+即可在文件中嵌入分享插件</br>
+详细自定义教程可见：[https://github.com/overtrue/share.js](https://github.com/overtrue/share.js)</br>
+### 嵌入Markdown文件插件
+```html
+<script src="https://unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js">
+```
+可以自定义：</br>
+```html
+window.$docsify = {
+remoteMarkdown: {
+    tag: 'md',
+		},
+	}
+```
+使用方法：</br>
+```markdown
+[你设置的tag，如：md](https://domain.com/markdown.md)
+```
+效果如上方的分享插件就可以直接链接：</br>
+[md](https://xhemj.gitee.io/share.md)</br>
+而不用写分享代码</br>
+源文件是：[https://xhemj.gitee.io/share.md](https://xhemj.gitee.io/share.md)</br>
+### 底部公共Footer插件
+```html
+<script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+```
+自定义：</br>
+```html
+window.$docsify = {
+footer: {
+            copy: '',
+            auth: '',
+            pre: '<hr>',
+            style:'text-align: center;'
+        },
+}
+```
+实测`copy`和`auth`可以随便写</br>
+写什么文字代码都可以</br>
+`pre`是正文和Footer的分割线，默认`<hr>`</br>
+效果可以见[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)</br>
+## 结尾
+基本上配置就是这样了！本文当基于[官方文档](https://docsify.js.org/)书写</br>
+要是有什么说不到位的欢迎私信我或者发邮件到[xhemj2680@163.com](mailto:xhemj2680@163.com)哦！</br>
+好看就分享一下吧！</br>
+[md](https://xhemj.gitee.io/books/share.md)</br>
