@@ -73,8 +73,8 @@ CDN可以选择：</br>
 /hello.md  =>  domain.com/#/hello
 /hello/hi.md  =>  domain.com/#/hello/hi
 ```
-如本教程文章Markdown文件为：[https://gitee.com/xhemj/books/raw/master/p/How-to-make-a-website-with-docsify.md](https://gitee.com/xhemj/books/raw/master/p/How-to-make-a-website-with-docsify.md)
-渲染成：[https://xhemj.gitee.io/books/#/p/How-to-make-a-website-with-docsify](https://xhemj.gitee.io/books/#/p/How-to-make-a-website-with-docsify)
+如本教程文章Markdown文件为：[https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md](https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md)
+渲染成：[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)
 ## 个性化
 ### 自定义加载文字
 只需在`index.html`中新增：</br>
