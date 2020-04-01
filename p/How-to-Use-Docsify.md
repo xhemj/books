@@ -83,8 +83,8 @@ CDN可以选择：</br>
 /hello.md  =>  domain.com/#/hello
 /hello/hi.md  =>  domain.com/#/hello/hi
 ```
-如本教程文章Markdown文件为：[https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md](https://gitee.com/xhemj/books/raw/master/p/how-to-use-Docsify.md)</br>
-渲染成：[https://xhemj.gitee.io/books/#/p/how-to-use-Docsify.md](https://xhemj.gitee.io/books/#/p/how-to-use-Docsify)</br>
+如本教程文章Markdown文件为：[https://gitee.com/xhemj/books/raw/master/p/How-to-Use-Docsify.md](https://gitee.com/xhemj/books/raw/master/p/How-to-Use-Docsify.md)</br>
+渲染成：[https://xhemj.gitee.io/books/#/p/How-to-Use-Docsify](https://xhemj.gitee.io/books/#/p/How-to-Use-Docsify)</br>
 ## 个性化
 ### 自定义加载文字
 只需在`index.html`中新增：</br>
@@ -100,7 +100,8 @@ CDN可以选择：</br>
   }
 </script>
 ```
-后创建一个文件叫做`_sidebar.md`，将你的文件输入进去：</br>
+后创建一个文件叫做`_sidebar.md`，将你的文件输入进去：
+
 ```markdown
 * [Home](/)
 * [Guide](guide.md)
