@@ -96,7 +96,7 @@
 #### 31.方 块 纪 念 - 纪念Minecraft经典的贴图
 [https://www.bilibili.com/video/av88855358/](https://www.bilibili.com/video/av88855358/)
 
-#### ~~32.av号考古大解密:av1av12av123av1234av12345av123456av1234567av12345678av11111111av22都还在吗?~~
+#### ~~【改名】32.av号考古大解密:av1av12av123av1234av12345av123456av1234567av12345678av11111111av22都还在吗?~~
 #### 32.【BV时代来了，av走了】致敬av1av12av123av1234av12345av123456av1234567av12345678av11111111av2
 [https://www.bilibili.com/video/av88934177/](https://www.bilibili.com/video/av88934177/)
 
@@ -173,7 +173,7 @@
 [https://www.bilibili.com/video/av92200086/](https://www.bilibili.com/video/av92200086/)
 
 #### ~~【未过审核】免费下载各平台音乐，QQ音乐专场！~~
-[https://www.bilibili.com/video/av92362858/](https://www.bilibili.com/video/av92362858/)
+~~[https://www.bilibili.com/video/av92362858/](https://www.bilibili.com/video/av92362858/)~~
 
 #### 57.很羡慕B站客服？教你轻松打造属于自己的客服系统，绝对为个人或企业量身打造
 [https://www.bilibili.com/video/av92288994/](https://www.bilibili.com/video/av92288994/)
@@ -239,7 +239,7 @@
 [https://www.bilibili.com/video/av97528786/](https://www.bilibili.com/video/av97528786/)
 
 #### ~~【未过审核】F̴̧̣̘̮̘̓̑̄͂̒̾̇̈̕o̴̡̢̞͍̻̼͗̀́̒̏̇͝n̵̢͓̮͈͙̘̮͑̀̀̓̋̏̍t̴̼͙̥̭̻̺̅̆̀̓̚ṡ̶̘̳͚̬̤͑͊̐̎͗̄̇͜~~
-[https://www.bilibili.com/video/av98056985/](https://www.bilibili.com/video/av98056985/)
+~~[https://www.bilibili.com/video/av98056985/](https://www.bilibili.com/video/av98056985/)~~
 
 #### 78.真的！小米的铃声竟然这么好听?！
 [https://www.bilibili.com/video/av97973551/](https://www.bilibili.com/video/av97973551/)
