@@ -172,6 +172,9 @@
 #### 56.B站首页图标SVG格式下载！
 [https://www.bilibili.com/video/av92200086/](https://www.bilibili.com/video/av92200086/)
 
+#### ~~免费下载各平台音乐，QQ音乐专场！~~
+[https://www.bilibili.com/video/av92362858/](https://www.bilibili.com/video/av92362858/)
+
 #### 57.很羡慕B站客服？教你轻松打造属于自己的客服系统，绝对为个人或企业量身打造
 [https://www.bilibili.com/video/av92288994/](https://www.bilibili.com/video/av92288994/)
 
@@ -235,6 +238,9 @@
 #### 77.“Mojang推出免费在线版Minecraft！”以后再也不需要客户端啦？
 [https://www.bilibili.com/video/av97528786/](https://www.bilibili.com/video/av97528786/)
 
+#### ~~【未过审核】F̴̧̣̘̮̘̓̑̄͂̒̾̇̈̕o̴̡̢̞͍̻̼͗̀́̒̏̇͝n̵̢͓̮͈͙̘̮͑̀̀̓̋̏̍t̴̼͙̥̭̻̺̅̆̀̓̚ṡ̶̘̳͚̬̤͑͊̐̎͗̄̇͜~~
+[https://www.bilibili.com/video/av98056985/](https://www.bilibili.com/video/av98056985/)
+
 #### 78.真的！小米的铃声竟然这么好听?！
 [https://www.bilibili.com/video/av97973551/](https://www.bilibili.com/video/av97973551/)
 
@@ -267,8 +273,28 @@
 [https://www.bilibili.com/video/av98706392/](https://www.bilibili.com/video/av98706392/)
 
 #### 87.用IE8访问b站会怎么样？竟然发现了2233娘的彩蛋！！
-[https://www.bilibili.com/video/av455008452/](https://www.bilibili.com/video/av455008452/)</br>
-[https://www.bilibili.com/video/BV1z541167Za/](https://www.bilibili.com/video/BV1z541167Za/)
+[https://www.bilibili.com/video/BV1z541167Za/](https://www.bilibili.com/video/BV1z541167Za/)</br>
+[https://www.bilibili.com/video/av455008452/](https://www.bilibili.com/video/av455008452/)
+
+#### 88.建议改成：北 方 黑 社 会
+[https://www.bilibili.com/video/BV1Ya4y1t7T6/](https://www.bilibili.com/video/BV1Ya4y1t7T6/)</br>
+[https://www.bilibili.com/video/av667593758/](https://www.bilibili.com/video/av667593758/)
+
+#### 89.‖作死挑战‖用Chrome一次性打开300个网页，“电脑”会怎么样?卡出50个鼠标……
+[https://www.bilibili.com/video/BV1A54y1d7gn/](https://www.bilibili.com/video/BV1A54y1d7gn/)</br>
+[https://www.bilibili.com/video/av840041647/](https://www.bilibili.com/video/av840041647/)
+
+#### 90.八♂下♂英♂语♂听♂力
+[https://www.bilibili.com/video/BV1ik4y1d75Q/](https://www.bilibili.com/video/BV1ik4y1d75Q/)</br>
+[https://www.bilibili.com/video/av752509553/](https://www.bilibili.com/video/av752509553/)
+
+#### 91.还在苦恼没有伴奏？一键消除人声，只留伴奏！
+[https://www.bilibili.com/video/BV1mg4y1b7PK/](https://www.bilibili.com/video/BV1mg4y1b7PK/)</br>
+[https://www.bilibili.com/video/av837554973/](https://www.bilibili.com/video/av837554973/)
+
+####  ~~【未过审核】禁 止 白 嫖~~
+~~[https://www.bilibili.com/video/BV1ee411x7De/](https://www.bilibili.com/video/BV1ee411x7De/)</br>~~
+
 
 <div id="social-share" style="text-align: left;">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
