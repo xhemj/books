@@ -1,0 +1,5 @@
+! title: Xhemj广告过滤规则
+! Version: 20200405
+! Homepage: https://xhemj.gitee.io/
+||tajs.qq.com^
+||google-analytics.com^
