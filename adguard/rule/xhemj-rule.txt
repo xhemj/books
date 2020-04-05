@@ -9,6 +9,10 @@
 ||cnzz.com^
 ||statcounter.com^
 ||googletagmanager.com^
+adservice.google.com^
+||googleadservices.com^
+||googlesyndication.com^
+||google-analytics.com^
 ||users.51.la^
 ||flagcounter.me^
 ||flagcounter.com^
