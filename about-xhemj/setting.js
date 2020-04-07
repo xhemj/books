@@ -16,10 +16,10 @@ window.$docsify = {
         search: 'auto',
         search: {
             maxAge: 86400000,
-            paths: '/',
+            paths: '/about-xhemj/',
             placeholder: '搜索...',
             noData: '未找到结果，换个搜索词试试？',
-            namespace: 'XhemjBlog',
+            namespace: 'about-xhemj',
         },
         //底部公共footer插件
          footer: {
