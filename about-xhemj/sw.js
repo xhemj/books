@@ -14,18 +14,11 @@ const HOSTNAME_WHITELIST = [
   'cdn.jsdelivr.net',
   'cdnjs.cloudflare.com',
   'cdnjs.com',
-  's7.addthis.com',
   'hm.baidu.com',
   'fonts.loli.net',
   'docsify.js.org',
-  'github.com',
-  'github.io',
-  'avatars1.githubusercontent.com',
   'gitee.com',
   'gitee.io',
-  'api.github.com',
-  'myssl.com',
-  'static.myssl.com',
   'gstatic.loli.net'
 ]
 
