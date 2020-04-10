@@ -295,6 +295,26 @@
 ####  ~~【未过审核】禁 止 白 嫖~~
 ~~[https://www.bilibili.com/video/BV1ee411x7De/](https://www.bilibili.com/video/BV1ee411x7De/)</br>~~
 
+#### 92.已失效视频
+[https://www.bilibili.com/video/BV1HK4y1C7wJ](https://www.bilibili.com/video/BV1HK4y1C7wJ)
+[https://www.bilibili.com/video/av882531344/](https://www.bilibili.com/video/av882531344/)
+
+#### 93.如何打出： (゜-゜)つロ 干杯~-bilibili ？
+[https://www.bilibili.com/video/BV11g4y1b74Z](https://www.bilibili.com/video/BV11g4y1b74Z)
+[https://www.bilibili.com/video/av837551735/](https://www.bilibili.com/video/av837551735/)
+
+#### 94.如何看待号称最好翻译的Deepl翻译机？
+[https://www.bilibili.com/video/BV1da4y147Te](https://www.bilibili.com/video/BV1da4y147Te)
+[https://www.bilibili.com/video/av667503476/](https://www.bilibili.com/video/av667503476/)
+
+#### 95.一分钟带你了解愚人节我的世界20w14∞快照版本
+[https://www.bilibili.com/video/BV15g4y1a7ky](https://www.bilibili.com/video/BV15g4y1a7ky)
+[https://www.bilibili.com/video/av837549726/](https://www.bilibili.com/video/av837549726/)
+
+#### 96.愚人节更新的20w14∞到底是什么?Mojang在搞事情吗？
+[https://www.bilibili.com/video/BV1UA41187uV](https://www.bilibili.com/video/BV1UA41187uV)
+[https://www.bilibili.com/video/av327528112/](https://www.bilibili.com/video/av327528112/)
+
 
 <div id="social-share" style="text-align: left;">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
