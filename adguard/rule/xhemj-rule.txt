@@ -1,5 +1,5 @@
-! title: Xhemj广告过滤规则
-! Version: 20200405
+! title: Xhemj统计代码过滤规则
+! Version: 202000412
 ! Homepage: https://xhemj.gitee.io/
 !专门用于阻止统计代码运行
 ||tajs.qq.com^
