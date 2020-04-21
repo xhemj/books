@@ -10,7 +10,8 @@
     * 2020年
         * [Xhemj发布的所有视频](/p/video)
         * [一起Karken这个世界-台词](/p/KrakenSHark)
-* [关于xhemj](/p/about-me.md)
+* [查看当前浏览器信息](/p/browser-info)
+* [关于xhemj](/p/about-me)
 * [赞助](/p/pay)
 ***
 ©2020  **xhemj** 
