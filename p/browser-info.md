@@ -1,1 +1,1 @@
-<iframe src="https://xhemj.gitee.io/p/browser-info.html" height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://xhemj.gitee.io/p/browser-info.html" height="auto" width="auto" frameborder="0"></iframe>
