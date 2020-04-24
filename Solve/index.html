@@ -11,7 +11,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="icon" href="https://xhemj.gitee.io/logo.svg" type="image/x-icon" />
 	<link rel="shortcut icon" href="https://xhemj.gitee.io/logo.svg" type="image/x-icon" />
 	<meta charset="UTF-8">
-    <meta name="description" content="ERSS解集是一本收录了厦门市音乐学校2018级8班的所有老师的“解”字，快来看看每个老师的“解”字是怎么样的吧！"/>
+	<meta name="description" content="ERSS解集是一本收录了厦门市音乐学校2018级8班的所有老师的“解”字，快来看看每位老师的“解”字是怎么样的吧！" />
 	<link rel="stylesheet" href="https://cdn.bootcss.com/fullPage.js/2.9.5/jquery.fullpage.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 	<script src="https://cdn.bootcss.com/fullPage.js/2.9.5/jquery.fullpage.js"></script>
@@ -32,6 +32,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 		body {
 			font-family: 'Noto Sans SC', sans-serif;
+		}
+		
+		.no-font {
+			font-family: "Microsoft YaHei"
 		}
 	</style>
 </head>
@@ -117,13 +121,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 		</div>
 		<div class="section" id="3">
-			<p><strong>
+			<div id="social-share" style="text-align: center;">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+				<div class="social-share" data-sites="qq,qzone,wechat,weibo,facebook,twitter" data-image="https://xhemj.gitee.io/logo.png"
+					data-wechat-qrcode-title="分享" data-wechat-qrcode-helper="使用微信扫一扫分享"></div>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+		</div>
+		<p><strong>
 制作：必胜黑恪（xhemj）</br>
 策划：布莱恪（BlackToy）、夏恪（Oranjezelv）、必胜黑恪（xhemj）</br>
 &copy; ERSS、&copy; IYAMAYA、&copy; ICERSS</br>
-</strong> CDN提供：jsdelivr；使用Jquery，Fullpage制作
-			</p>
-		</div>
+</strong>
+			<div class="no-font">xhemj制作</div>
+		</p>
+	</div>
 </body>
 
 </html>
