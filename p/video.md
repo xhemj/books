@@ -339,11 +339,55 @@
 [https://www.bilibili.com/video/BV1ef4y1U732/](https://www.bilibili.com/video/BV1ef4y1U732/)</br>
 [https://www.bilibili.com/video/av285229388/](https://www.bilibili.com/video/av285229388/)
 
-<div id="latest"></div>
-
 #### 101.如果吧TNT爆照给倒放会怎么样?回收TNT
 [https://www.bilibili.com/video/BV1xZ4y1x76J/](https://www.bilibili.com/video/BV1xZ4y1x76J/)</br>
 [https://www.bilibili.com/video/av370225902/](https://www.bilibili.com/video/av370225902/)
+
+#### 102.【自用】我把bilibili当视频网盘，不限速，真香！
+[https://www.bilibili.com/video/BV1D64y1u7WL/](https://www.bilibili.com/video/BV1D64y1u7WL/)</br>
+[https://www.bilibili.com/video/av582736314/](https://www.bilibili.com/video/av582736314/)
+
+#### 103.建议改成：哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵呵哈哈哈哈哈哈哈哈哈哈
+[https://www.bilibili.com/video/BV1ZK4y1r7MP/](https://www.bilibili.com/video/BV1ZK4y1r7MP/)</br>
+[https://www.bilibili.com/video/av582736314/](https://www.bilibili.com/video/av582736314/)
+
+#### 104.播放 1:00:00 下一首 暂停 上一首
+[https://www.bilibili.com/video/BV14A411h7xX/](https://www.bilibili.com/video/BV14A411h7xX/)</br>
+[https://www.bilibili.com/video/av327647422/](https://www.bilibili.com/video/av327647422/)
+
+#### 105.【我错了】我给老番茄的视频点了个踩！会怎么样?
+[https://www.bilibili.com/video/BV1JK4y1r7eg/](https://www.bilibili.com/video/BV1JK4y1r7eg/)</br>
+[https://www.bilibili.com/video/av882656747/](https://www.bilibili.com/video/av882656747/)
+
+#### 106.Github访问慢?头像无法加载?图片看不到?一招让你飞速上Github
+[https://www.bilibili.com/video/BV1KA411b7KH/](https://www.bilibili.com/video/BV1KA411b7KH/)</br>
+[https://www.bilibili.com/video/av327712770/](https://www.bilibili.com/video/av327712770/)
+
+#### 107.【治愈向】NyanCat慢放后竟然这么好听！！
+[https://www.bilibili.com/video/BV1Bg4y187w6/](https://www.bilibili.com/video/BV1Bg4y187w6/)</br>
+[https://www.bilibili.com/video/av837726092/](https://www.bilibili.com/video/av837726092/)
+
+#### 108.【100分钟循环】NyanCat！！
+[https://www.bilibili.com/video/BV1Bf4y1U7Se/](https://www.bilibili.com/video/BV1Bf4y1U7Se/)</br>
+[https://www.bilibili.com/video/av285214374/](https://www.bilibili.com/video/av285214374/)
+
+#### 109.【100分钟循环】黑人抬棺
+[https://www.bilibili.com/video/BV1vp4y1X7hj/](https://www.bilibili.com/video/BV1vp4y1X7hj/)</br>
+[https://www.bilibili.com/video/av967840391/](https://www.bilibili.com/video/av967840391/)
+
+#### 110.Google手气不错到底是什么？？
+[https://www.bilibili.com/video/BV1aA411b7z7/](https://www.bilibili.com/video/BV1aA411b7z7/)</br>
+[https://www.bilibili.com/video/av327831618/](https://www.bilibili.com/video/av327831618/)
+
+#### 111.每天一遍，防止抑郁 的删减画面
+[https://www.bilibili.com/video/BV1SA411b7qs/](https://www.bilibili.com/video/BV1SA411b7qs/)</br>
+[https://www.bilibili.com/video/av327857995/](https://www.bilibili.com/video/av327857995/)
+
+#### 112.每天一遍，防止抑郁 的删减画面
+[https://www.bilibili.com/video/BV1SA411b7qs/](https://www.bilibili.com/video/BV1SA411b7qs/)</br>
+[https://www.bilibili.com/video/av327857995/](https://www.bilibili.com/video/av327857995/)
+
+<div id="latest"></div>
 
 
 #### [返回顶部](#top)
