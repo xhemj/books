@@ -1,4 +1,4 @@
-<img src="/logo.png" width="150px">
+<img src="./logo.png" width="150px">
 
 # <span style="font-weight:400;">Xhemj</span>
 
