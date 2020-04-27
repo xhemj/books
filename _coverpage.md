@@ -1,4 +1,4 @@
-<img src="./logo.png" width="150px">
+<img src="https://cdn.jsdelivr.net/gh/xhemj/books@latest/logo.png" width="150px">
 
 # <span style="font-weight:400;">Xhemj</span>
 
