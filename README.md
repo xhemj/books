@@ -11,5 +11,3 @@
 * [联系我](mailto:xhemj2680@163.com)
 
 ## -BY：Xhemj-
-[md](https://xhemj.gitee.io/books/share.md)
-
