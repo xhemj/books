@@ -10,7 +10,7 @@
  - 微博：[xhemj](https://weibo.com/xhemj)
  - Minecraft：[xhemj](https://zh-cn.namemc.com/profile/xhemj.1)
 ## 个人人设：
-![xhemj-skin](/img/xhemj-skin.png)
+![xhemj-skin](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/Minecraft/skin/body.png)
  - Minecraft皮肤：[xhemj-skin](https://zh-cn.namemc.com/profile/xhemj.1)
 ## 个人图标
-<img src="/logo.png" width="150">
+<img src="https://cdn.jsdelivr.net/gh/xhemj/books@latest/logo.png" width="150">
