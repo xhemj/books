@@ -56,11 +56,11 @@ window.$docsify = {
                 language:'chinese'
                 },
         
-        plugins: [
-                EditOnGithubPlugin.create(
-                    'https://github.com/TimoryGroup/Wiki/blob/master/',
-                    null,
-                    "在Github上编辑"
-                )
-            ]
+//        plugins: [
+//                EditOnGithubPlugin.create(
+//                    '',
+//                    null,
+//                    "在Github上编辑"
+//                )
+//            ]
         }
