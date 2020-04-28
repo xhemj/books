@@ -49,12 +49,10 @@ window.$docsify = {
         remoteMarkdown: {
                 tag: 'md',
         },
-        window.$docsify = {
-                count:{
+        count:{
                 countable:true,
                 fontsize:'0.9em',
                 color:'rgb(90,90,90)',
                 language:'chinese'
-                }
+                },
         }
-    }
