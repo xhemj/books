@@ -1,6 +1,6 @@
 window.$docsify = {
         name: 'Xhemj文档中心',
-        repo: 'https://github.com/xhemj/books',
+        repo: '',
         loadSidebar: true,
         loadNavbar: true,
         coverpage: true,
@@ -55,12 +55,4 @@ window.$docsify = {
                 color:'rgb(90,90,90)',
                 language:'chinese'
                 },
-        
-//        plugins: [
-//                EditOnGithubPlugin.create(
-//                    '',
-//                    null,
-//                    "在Github上编辑"
-//                )
-//            ]
         }
