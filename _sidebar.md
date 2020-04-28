@@ -5,6 +5,7 @@
     * 2020
         * [Xhemj的网站简介](/p/about-xhemj-website)
         * [使用Docsify做文档网站的详细配置教程](p/How-to-Use-Docsify)
+        * [如何免费申请js.org二级域名](p/How-to-Use-Js-org-Domain)
         * [如何用Git.io来生成自定义后缀名的短网址](/p/Git-io-short-url)
 * 随笔归档
     * 2020年
