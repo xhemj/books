@@ -1,5 +1,5 @@
 ## **赞助本网站** 
-![](/img/pay.jpg)
+![](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/pay-QR/pay.jpg)
 ## 链接直达：[付款界面](https://xhemj.gitee.io/oneQRCodeforPay/)
 
 <div id="social-share" style="text-align: left;">
