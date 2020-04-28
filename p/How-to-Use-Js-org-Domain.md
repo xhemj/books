@@ -67,6 +67,7 @@ Your site is published at https://xhemj.github.io/
 我已阅读并接受条款和条件
 ```
 肯定接受啊！！</br>
+记得回到要申请的仓库里新建`CHAME`文件，在里面输入你的.js.org域名</br>
 之后到[https://github.com/js-org/js.org](https://github.com/js-org/js.org)的`Pull requests`就可以看到你的申请</br>
 如下：</br>
 ![](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/js-org/js-org-pull-open.png)</br>
