@@ -55,4 +55,17 @@ window.$docsify = {
                 color:'rgb(90,90,90)',
                 language:'chinese'
                 },
+        plugins: [
+                EditOnGithubPlugin.create(
+                        'https://github.com/xhemj/books/',
+                        null,
+                        function(file) {
+                            if (file.indexOf('en') === -1) {
+                                return '在Github上编辑此页'
+                        } else {
+                                return 'Edit on Github'
+                                }
+                            }
+                        )
+                ]
         }
