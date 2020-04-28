@@ -1,6 +1,6 @@
 window.$docsify = {
         name: 'Xhemj文档中心',
-        repo: '',
+        repo: 'https://github.com/xhemj/books',
         loadSidebar: true,
         loadNavbar: true,
         coverpage: true,
