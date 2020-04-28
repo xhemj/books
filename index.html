@@ -4,7 +4,7 @@
                         Xhemj文档中心
                         基于docsify建立
                         ©Xhemj 2020
-                        https://xhemj.gitee.io/books/
+                        https://xhemj.js.org/
 -->
 
 <head>
@@ -40,7 +40,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/themes/vue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/themes/vue.css">
+
 	<style>
 		@import url('https://fonts.loli.net/css?family=Noto+Sans+SC:700&display=swap');
 		body {
@@ -57,71 +58,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div id="app">
 			<strong>正在加载中……</strong>
 		</div>
+//插件=============================================
 		<script src="./setting.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/docsify.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/plugins/search.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/plugins/zoom-image.min.js"></script>
-		<script src="https://unpkg.com/docsify-copy-code/dist/docsify-copy-code.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/plugins/emoji.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+		<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 		<script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 		<script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 		<script src="https://unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
-        	<script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>
-		<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+        	<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/827652549/docsify-count@master/dist/countable.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/njleonzhang/docsify-edit-on-github@master/index.min.js"></script>
 
-<!--
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.6.2/gitalk.css">
-	<div id="Gitalk"></div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.11.2/plugins/gitalk.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.6.2/gitalk.min.js"></script>"
-	<script>
-		var gitalk = new Gitalk({
-      clientID: '5cf3ea00581c538fe30c',
-      clientSecret: 'ef845040574adf85d87ef7b6c78ad59d8bf7aec1',
-      repo: 'books',
-      owner: 'xhemj',
-      admin: ['xhemj'],
-      title: location.hash.match(/#(.*?)([?]|$)/)[1],
-      id: 'xhemj',
-    })
-    window.onhashchange = function(event){
-      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
-        location.reload()
-      }
-    }
-	</script>
-
--->
-</body>
-
-<!-- xhemj 统计代码 -->
-<script src="https://cdn.jsdelivr.net/gh/mumuy/browser@master/Browser.js"></script>
-<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-<script>
-var info = new Browser();
-var info = new Browser();var nowTime = hour+"时"+minute+"分"+second+"秒";var nowDate = year+"年"+month+"月"+day+"日";
-function getPluginName() {var info = "";var plugins = navigator.plugins;
-if (plugins.length > 0) {for (i = 0; i < navigator.plugins.length; i++) {info += navigator.plugins[i].name + ";";}}return info;}
-function checkePlugs(pluginname) {var f = "-";var plugins = navigator.plugins;
-if (plugins.length > 0) {for (i = 0; i < navigator.plugins.length; i++) {
-if (navigator.plugins[i].name.indexOf(pluginname) >= 0) {f = navigator.plugins[i].description.split(pluginname)[1];return f;break;}}}return false;}
-var date = new Date();var year = date.getFullYear();var month = date.getMonth() + 1;var day = date.getDate();
-if (month < 10) {month = "0" + month;}
-if (day < 10) { day = "0" + day;} 
-var time = new Date();var hour = time.getHours();var minute = time.getMinutes();var second = time.getSeconds();
-document.write("\
-<iframe src=https://xhemj.gitee.io/stat.html"+
-"?language="+info.language+
-"&time="+year+"."+month+"."+day+"-"+hour+":"+minute+":"+second+
-"&ip="+returnCitySN["cip"]+
-"&location="+returnCitySN["cname"]+
-"&browser="+info.device+"-"+info.browser+"-"+info.version+
-"&os="+info.os+info.osVersion+
-"&websize="+window.screen.availWidth+"-"+window.screen.availHeight+
-"&utm_source="+window.location.href+
-" "+"width="+"0"+" "+"height="+"0"+" "+"style="+"display:none;visibility:hidden"+"></iframe>");
-</script>
-<!-- xhemj 统计代码结束 -->
-
+	</body>
 </html>
