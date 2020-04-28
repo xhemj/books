@@ -47,7 +47,7 @@ Your site is published at https://xhemj.github.io/
 现在浏览器中先访问以下，看看有没有被占用
 还好我的还在~</br>
 进入`cnames_active.js`，修改，</br>
-将你的域名按照如下格式*按照字幕顺序*（一定要按照字幕顺序）放入相应的行数</br>
+将你的域名按照如下格式*按照首字母顺序*（一定要按照字母顺序）放入相应的行数</br>
 比如说我的xhemj.js.org就可以放入第2176行：</br>
 ```html
 "xhemj": "xhemj.github.io/books"
@@ -67,7 +67,6 @@ Your site is published at https://xhemj.github.io/
 我已阅读并接受条款和条件
 ```
 肯定接受啊！！</br>
-之后到你自己要</br>
 之后到[https://github.com/js-org/js.org](https://github.com/js-org/js.org)的`Pull requests`就可以看到你的申请</br>
 如下：</br>
 ![](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/js-org/js-org-pull-open.png)</br>
