@@ -9,24 +9,15 @@
 const RUNTIME = 'docsify'
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  'xhemj.gitee.io',
-  'unpkg.com',
   'cdn.jsdelivr.net',
   'cdnjs.cloudflare.com',
-  'cdnjs.com',
-  's7.addthis.com',
   'hm.baidu.com',
   'fonts.loli.net',
-  'docsify.js.org',
-  'github.com',
-  'github.io',
-  'avatars1.githubusercontent.com',
-  'gitee.com',
-  'gitee.io',
-  'api.github.com',
-  'myssl.com',
-  'static.myssl.com',
-  'gstatic.loli.net'
+  'xhemj.js.org',
+  'js.org',
+  'gstatic.loli.net',
+  'fonts.gstatic.com',
+  'fonts.googleapis.com'
 ]
 
 // The Util Function to hack URLs of intercepted requests
