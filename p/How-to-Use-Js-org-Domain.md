@@ -50,12 +50,13 @@ Your site is published at https://xhemj.github.io/
 将你的域名按照如下格式*按照首字母顺序*（一定要按照字母顺序）放入相应的行数</br>
 比如说我的xhemj.js.org就可以放入第2176行：</br>
 ```html
-"xhemj": "xhemj.github.io/books"
+"xhemj": "xhemj.github.io/books",
 ```
 那我们来解释一下：</br>
 1.`"xhemj"`表示你要申请的域名，如你要申请`xhemj.js.org`就填入`xhemj`</br>
 2.`: `就是一个冒号+空格</br>
 3.`"xhemj.github.io/books"`表示你原来网站GithubPages的链接</br>
+4.`,`一定要记得在后面加一个逗号！
 注意：在后面不要加任何注释！（非常重要）</br>
 之后返回你的`USERNAME/js.org`，点击`Pull requests`，向js.org发送一个申请</br>
 内容如下：</br>
