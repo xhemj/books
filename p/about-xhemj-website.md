@@ -16,7 +16,6 @@ Xhemj的网站是Xhemj自己建立的网站，
 目前暂时托管在 Gitee 上。
 Xhemj网站里面有一些Xhemj自创的文章、网页等。欢迎查看哦！
 ## 网站结构图（[Sitemap](https://xhemj.gitee.io/sitemap.txt)）
-[md](https://xhemj.gitee.io/structure.md)
 请前往：[Gitee/xhemj/xhemj](https://gitee.com/xhemj/xhemj)
 ## Gitee仓库概况
 [![xhemj/xhemj](https://gitee.com/xhemj/xhemj/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/xhemj/xhemj)
