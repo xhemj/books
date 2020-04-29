@@ -13,6 +13,7 @@
         * [一起Karken这个世界-台词](/p/KrakenSHark)
 * [查看当前浏览器信息](/p/browser-info)
 * [关于xhemj](/p/about-me)
+* [站点地图](p/sitemap)
 * [赞助](/p/pay)
 ***
 ©2020  **xhemj** 
