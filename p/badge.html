@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -74,18 +75,24 @@ body {font-family: 'Noto Sans SC', sans-serif}
 </style>
 </head>
 <body>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div  style="text-align: center;">
-<a href="/" title="xhemj制作" target="_blank"><div class="github-badge"><span class="badge-subject">Author</span><span class="badge-value bg-blue">xhemj</div></a>  
-<a href="https://docsify.js.org/" title="由 Docsify 生成" target="_blank"><div class="github-badge"><span class="badge-subject">Powered</span><span class="badge-value bg-brightgreen">Docsify</div></a>  
-<a href="https://pages.github.com/" title="托管在Github和Gitee上" target="_blank"><div class="github-badge"><span class="badge-subject">Hosted</span><span class="badge-value bg-red">Github & Gitee</div></a>  
-<a href="https://jsdelivr.com/" title="由Jsdelivr提供静态文件加速服务，由Cloudflare提供网站加速服务" target="_blank"><div class="github-badge"><span class="badge-subject">CDN</span><span class="badge-value bg-orange">Jsdelivr & Cloudflare</div></a>  
-<a href="#" title="已经运行了那么久了？？"><div class="github-badge"><span class="badge-subject">运行时间</span><span class="badge-value bg-blueviolet"><span id="times"></span></div></a>  
-<a href="#" title="Copyright &copy; 2020 xhemj" ><div class="github-badge"><span class="badge-subject">&copy;</span><span class="badge-value bg-lightgrey">2020 xhemj</div></a>
-</br><a href="#" title="好多人~~~"><div class="github-badge"><span class="badge-subject">访问次数：</span><span class="badge-value bg-yellow"><span id="busuanzi_value_site_pv"></span></div></a>
-<a href="#" title="好多人~~~"><div class="github-badge"><span class="badge-subject">访客人数：</span><span class="badge-value bg-yellow"><span id="busuanzi_value_site_uv"></span></div></a>
-</div>
 <script>
+if(cdnuse=="1"){
+      var cdnshow = "Jsdelivr"
+      var cdncomment ="由Jsdelivr提供静态文件加速服务"
+    }
+if(cdnuse=="2"){
+      var cdnshow = "Jsdelivr & Cloudflare"
+      var cdncomment ="由Jsdelivr&Cloudflare提供静态文件加速服务"
+    }
+if(cdnuse=="3"){
+      var cdnshow = "Jsdelivr"
+      var cdncomment ="由Jsdelivr提供静态文件加速和压缩服务"
+    }
+if(cdnuse=="4"){
+      var cdnshow = "loli.net & Jsdelivr"
+      var cdncomment ="由cdnjs.loli.net&Jsdelivr提供静态文件加速和压缩服务"
+    }
+
     var now = new Date(); 
     function createtime() {
       var grt= new Date("03/16/2020 15:13:00");
@@ -99,7 +106,20 @@ body {font-family: 'Noto Sans SC', sans-serif}
       document.getElementById("times").innerHTML = dnum +" 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
       }
       setInterval("createtime()",250);
-//源代码来自https://www.itrhx.com/
+//网站运行时间源代码来自https://www.itrhx.com/
 </script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div  style="text-align: center;">
+<a href="/" title="xhemj制作" target="_blank"><div class="github-badge"><span class="badge-subject">Author</span><span class="badge-value bg-blue">xhemj</div></a>  
+<a href="https://docsify.js.org/" title="由 Docsify 生成" target="_blank"><div class="github-badge"><span class="badge-subject">Powered</span><span class="badge-value bg-brightgreen">Docsify</div></a>  
+<a href="https://pages.github.com/" title="托管在Github和Gitee上" target="_blank"><div class="github-badge"><span class="badge-subject">Hosted</span><span class="badge-value bg-red">Github & Gitee</div></a>  
+<script>
+document.write("<a href=\"https://pages.github.com/\" title="+cdncomment+" target=\"_blank\"><div class=\"github-badge\"><span class=\"badge-subject\">CDN</span><span class=\"badge-value bg-orange\">"+cdnshow+"</div></a>  ");
+</script>
+<a href="#" title="已经运行了那么久了？？"><div class="github-badge"><span class="badge-subject">运行时间</span><span class="badge-value bg-blueviolet"><span id="times"></span></div></a>  
+<a href="#" title="Copyright &copy; 2020 xhemj" ><div class="github-badge"><span class="badge-subject">&copy;</span><span class="badge-value bg-lightgrey">2020 xhemj</div></a>
+</br><a href="#" title="好多人~~~"><div class="github-badge"><span class="badge-subject">访问次数：</span><span class="badge-value bg-yellow"><span id="busuanzi_value_site_pv"></span></div></a>
+<a href="#" title="好多人~~~"><div class="github-badge"><span class="badge-subject">访客人数：</span><span class="badge-value bg-yellow"><span id="busuanzi_value_site_uv"></span></div></a>
+</div>
 </body>
 </html>
