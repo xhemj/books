@@ -1,7 +1,7 @@
 /*
 Docsify CDN
 */
-document.write("<script src=\"https:\/\/xhemj.js.org\/js\/cdnusenum.js\"><\/script>");
+var cdnuse = "3"
 if(cdnuse == "1"){
 //使用Jsdelivr
 document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/docsify\/lib\/docsify.min.js\"><\/script>");
