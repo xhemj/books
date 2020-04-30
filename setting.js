@@ -41,8 +41,10 @@ window.$docsify = {
 //        },
         //底部公共footer插件
          footer: {
-            copy: '<strong>© 2020 Xhemj</strong>&nbsp;|&nbsp;<a href="/books" target="_blank">官网</a>&nbsp|&nbsp;<a href="https://xhemj.gitee.io/oneQRCodeforPay/" target="_blank">赞助本网站</a>&nbsp|&nbsp;<a href="mailto:xhemj2680@163.com" target="_blank">联系我</a></br><img src="https://xhemj.js.org/logo.png" width="50" height="50">',
-            auth: '<strong>BY: X H E M J</strong></br><strong>"这只是Xhemj的文档中心而已，也没有什么别的！"</strong><div id="cc-myssl-id"><a href="https://myssl.com/xhemj.js.org?from=mysslid" target="_blank"><img src="https://static.myssl.com/res/images/myssl-id3.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a></br></div>',
+            //copy: '<strong>© 2020 Xhemj</strong>&nbsp;|&nbsp;<a href="/books" target="_blank">官网</a>&nbsp|&nbsp;<a href="https://xhemj.gitee.io/oneQRCodeforPay/" target="_blank">赞助本网站</a>&nbsp|&nbsp;<a href="mailto:xhemj2680@163.com" target="_blank">联系我</a></br><img src="https://xhemj.js.org/logo.png" width="50" height="50">',
+            //auth: '<strong>BY: X H E M J</strong></br><strong>"这只是Xhemj的文档中心而已，也没有什么别的！"</strong><div id="cc-myssl-id"><a href="https://myssl.com/xhemj.js.org?from=mysslid" target="_blank"><img src="https://static.myssl.com/res/images/myssl-id3.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a></br></div>',
+            copy: '<div class="github-badge"><span class="badge-subject">Author</span><span class="badge-value bg-blue">xhemj</div><div class="github-badge"><span class="badge-subject">&copy;</span><span class="badge-value bg-lightgrey">2020 xhemj</div><div class="github-badge"><span class="badge-subject">Hosted</span><span class="badge-value bg-blueviolet">Github & Gitee</div><div class="github-badge"><span class="badge-subject">CDN</span><span class="badge-value bg-orange">Jsdelivr & Cloudflare</div>',
+            auth: '</br>xhemj',
             pre: '<hr>',
             style:'text-align: center;'
         },
