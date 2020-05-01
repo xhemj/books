@@ -10,4 +10,9 @@
 如果有任何意见欢迎[留言](https://github.com/xhemj/books/issues/new)或发邮件到[xhemj2680@163.com](mailto:xhemj2680@163.com)</br>
 您也可以访问[文章归档](/p/sitemap)来查阅文章</br>
 ***
+
+
+<center><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">知识共享署名-非商业性使用 2.0 通用许可协议</a>进行许可。</center>
+
+
 #### -BY：Xhemj-
