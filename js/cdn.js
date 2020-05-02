@@ -45,6 +45,19 @@ document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/827652549\/docsify
 document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/xhemj\/xhemj.github.io@master\/backup\/js\/docsify-pagination.min.js\"><\/script>");
 document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/docsify-copy-code\"><\/script>");
 }
+if(cdnuse == "5"){
+//尽量使用Staticfile+其它Jsdelivr
+document.write("<script src=\"https:\/\/cdn.staticfile.org\/docsify\/4.11.2\/docsify.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.staticfile.org\/docsify\/4.11.2\/plugins\/search.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.staticfile.org\/docsify\/4.11.2\/plugins\/zoom-image.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/docsify-copy-code\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.staticfile.org\/docsify\/4.11.2\/plugins\/emoji.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.staticfile.org\/docsify\/4.11.2\/plugins\/external-script.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/xhemj\/xhemj.github.io@master\/backup\/js\/docsify-pagination.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/xhemj\/xhemj.github.io@master\/backup\/js\/docsify-footer-enh.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/xhemj\/xhemj.github.io@master\/backup\/js\/docsify-remote-markdown.min.js\"><\/script>");
+document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/827652549\/docsify-count@master\/dist\/countable.min.js\"><\/script>");
+}
 //通用其它功能js
 document.write("<script src=\"\/\/cdn.jsdelivr.net\/npm\/prismjs\/components\/prism-markdown.min.js\"><\/script>");
 //document.write("<script src=\"\/\/cdn.jsdelivr.net\/npm\/prismjs\/components\/prism-css.min.js\"><\/script>");
