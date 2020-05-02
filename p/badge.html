@@ -76,7 +76,7 @@ body {font-family: 'Noto Sans SC', sans-serif}
 </head>
 <body>
 <script>
-var cdnuse = "3"
+var cdnuse = "5"
 if(cdnuse=="1"){
       var cdnshow = "Jsdelivr"
       var cdncomment ="由Jsdelivr提供静态文件加速服务"
@@ -92,6 +92,10 @@ if(cdnuse=="3"){
 if(cdnuse=="4"){
       var cdnshow = "loli.net & Jsdelivr"
       var cdncomment ="由cdnjs.loli.net&Jsdelivr提供静态文件加速和压缩服务"
+    }
+if(cdnuse=="5"){
+      var cdnshow = "Staticfile & Jsdelivr"
+      var cdncomment ="由Staticfile&Jsdelivr提供静态文件加速和压缩服务"
     }
 
     var now = new Date(); 
@@ -115,7 +119,7 @@ if(cdnuse=="4"){
 <a href="https://docsify.js.org/" title="由 Docsify 生成" target="_blank"><div class="github-badge"><span class="badge-subject">Powered</span><span class="badge-value bg-brightgreen">Docsify</div></a>  
 <a href="https://pages.github.com/" title="托管在Github和Gitee上" target="_blank"><div class="github-badge"><span class="badge-subject">Hosted</span><span class="badge-value bg-red">Github & Gitee</div></a>  
 <script>
-document.write("<a href=\"https://pages.github.com/\" title="+cdncomment+" target=\"_blank\"><div class=\"github-badge\"><span class=\"badge-subject\">CDN</span><span class=\"badge-value bg-orange\">"+cdnshow+"</div></a>  ");
+document.write("<a href=\"#" title="+cdncomment+" target=\"_blank\"><div class=\"github-badge\"><span class=\"badge-subject\">CDN</span><span class=\"badge-value bg-orange\">"+cdnshow+"</div></a>  ");
 </script>
 <a href="#" title="已经运行了那么久了？？"><div class="github-badge"><span class="badge-subject">运行时间</span><span class="badge-value bg-blueviolet"><span id="times">很久了~~</span></div></a>  
 <a href="#" title="Copyright &copy; 2020 xhemj" ><div class="github-badge"><span class="badge-subject">&copy;</span><span class="badge-value bg-lightgrey">2020 xhemj</div></a>
