@@ -1,0 +1,29 @@
+<!-- -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<div id="dplayer"></div>
+<script>
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    autoplay: false,
+    theme: '#FADFA3',
+    loop: true,
+    lang: 'zh-cn',
+    screenshot: true,
+    hotkey: true,
+    preload: 'auto',
+    mutex: true,
+    video: {
+        url: 'https://xhemj.coding.net/api/share/download/2c5f0ea7-2976-4223-ab9d-a2065753740d',
+        type: 'auto',
+    },
+    contextmenu: [
+        {
+            text: 'xhemj',
+            link: 'https://xhemj.js.org/',
+        },
+    ],
+});
+</script>
