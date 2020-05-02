@@ -11,8 +11,8 @@
 您也可以访问[文章归档](/p/sitemap)来查阅文章</br>
 ***
 
-![](https://licensebuttons.net/l/by-nc/2.0/88x31.png)</br>
-本网站所有作品除特别标注外一律采用[知识共享署名-非商业性使用 2.0 通用许可协议](/p/licenses)进行许可
+![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)</br>
+本网站所有作品除特别标注外一律采用[署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)](/p/licenses)进行许可
 
 
 #### -BY：Xhemj-
