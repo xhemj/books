@@ -1,5 +1,5 @@
 ## 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)
-![](https://creativecommons.org/images/chooser/chooser_cc.png)![](https://creativecommons.org/images/chooser/chooser_by.png)![](https://creativecommons.org/images/chooser/chooser_nc.png)![](https://creativecommons.org/images/chooser/chooser_sa.png)
+![](https://creativecommons.org/images/chooser/chooser_cc.png)![](https://creativecommons.org/images/chooser/chooser_by.png)![](https://creativecommons.org/images/chooser/chooser_nc.png)![](https://creativecommons.org/images/chooser/chooser_sa.png)</br>
 [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)</br>
 您可以**自由**地：</br>
 **共享** — 在任何媒介以任何形式复制、发行本作品</br>
