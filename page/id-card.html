@@ -1,11 +1,15 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>xhemj</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/backup/css/form-css.min.css">
+<title>身份证真实性检验 - xhemj</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@latest/backup/css/form.min.css">
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@latest/js/get-querystring.min.js"></script>
 <script>
+/* -------------------------------- 
+* IDVerify 身份证真实性检验
+* ©2020 xhemj
+*--------------------------------  */
 var number = querystring("id");
 var backcode = "";
 var name = "IDVerify";
@@ -75,6 +79,7 @@ var name = "IDVerify";
 		if (number.length != 18) {
 			if (number != "") {
 			console.error(name+":"+"身份证格式或位数不符合规定。ID card format or digits do not meet the requirements.");
+			var backcode = "身份证格式或位数不符合规定"
 			}
 		}
 	}
@@ -97,6 +102,7 @@ if (number != "") {
 	document.write("<div class=\"error-message\"><p>"+backcode+"<\/p><\/div>");
 }
 </script>
+<center><label class="cd-label">©2020 xhemj</label></center>
 </form>
 </div>
 </body>
