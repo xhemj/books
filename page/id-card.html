@@ -1,3 +1,4 @@
+
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>身份证真实性检验 - xhemj</title>
@@ -84,6 +85,405 @@ var name = "IDVerify";
 		}
 	}
 
+/* -------------------------------- 
+* 详细信息查询
+*--------------------------------  */
+var p = ""
+var date = ""
+var gender = ""
+var c = ""
+/* -------------------------------- 
+* 省份
+*--------------------------------  */
+if(number.slice(0,1)+number.slice(1,2) == 11){var p = "北京市"}
+if(number.slice(0,1)+number.slice(1,2) == 12){var p = "天津市"}
+if(number.slice(0,1)+number.slice(1,2) == 13){var p = "河北省"}
+if(number.slice(0,1)+number.slice(1,2) == 14){var p = "山西省"}
+if(number.slice(0,1)+number.slice(1,2) == 15){var p = "内蒙古自治区"}
+if(number.slice(0,1)+number.slice(1,2) == 21){var p = "辽宁省"}
+if(number.slice(0,1)+number.slice(1,2) == 22){var p = "吉林省"}
+if(number.slice(0,1)+number.slice(1,2) == 23){var p = "黑龙江省"}
+if(number.slice(0,1)+number.slice(1,2) == 31){var p = "上海市"}
+if(number.slice(0,1)+number.slice(1,2) == 32){var p = "江苏省"}
+if(number.slice(0,1)+number.slice(1,2) == 33){var p = "浙江省"}
+if(number.slice(0,1)+number.slice(1,2) == 34){var p = "安徽省"}
+if(number.slice(0,1)+number.slice(1,2) == 35){var p = "福建省"}
+if(number.slice(0,1)+number.slice(1,2) == 36){var p = "江西省"}
+if(number.slice(0,1)+number.slice(1,2) == 37){var p = "山东省"}
+if(number.slice(0,1)+number.slice(1,2) == 41){var p = "河南省"}
+if(number.slice(0,1)+number.slice(1,2) == 42){var p = "湖北省"}
+if(number.slice(0,1)+number.slice(1,2) == 43){var p = "湖南省"}
+if(number.slice(0,1)+number.slice(1,2) == 44){var p = "广东省"}
+if(number.slice(0,1)+number.slice(1,2) == 45){var p = "广西壮族自治区"}
+if(number.slice(0,1)+number.slice(1,2) == 46){var p = "海南省"}
+if(number.slice(0,1)+number.slice(1,2) == 50){var p = "重庆市"}
+if(number.slice(0,1)+number.slice(1,2) == 51){var p = "四川省"}
+if(number.slice(0,1)+number.slice(1,2) == 52){var p = "贵州省"}
+if(number.slice(0,1)+number.slice(1,2) == 53){var p = "云南省"}
+if(number.slice(0,1)+number.slice(1,2) == 54){var p = "西藏自治区"}
+if(number.slice(0,1)+number.slice(1,2) == 61){var p = "陕西省"}
+if(number.slice(0,1)+number.slice(1,2) == 62){var p = "甘肃省"}
+if(number.slice(0,1)+number.slice(1,2) == 63){var p = "青海省"}
+if(number.slice(0,1)+number.slice(1,2) == 64){var p = "宁夏回族自治区"}
+if(number.slice(0,1)+number.slice(1,2) == 65){var p = "新疆维吾尔自治区"}
+if(number.slice(0,1)+number.slice(1,2) == 71){var p = "台湾省"}
+if(number.slice(0,1)+number.slice(1,2) == 81){var p = "香港特别行政区"}
+if(number.slice(0,1)+number.slice(1,2) == 82){var p = "澳门特别行政区"}
+/* -------------------------------- 
+* 城市
+*--------------------------------  */
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1100){var c = "北京市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1200){var c = "天津市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1301){var c = "石家庄市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1302){var c = "唐山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1303){var c = "秦皇岛市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1304){var c = "邯郸市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1305){var c = "邢台市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1306){var c = "保定市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1307){var c = "张家口市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1308){var c = "承德市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1309){var c = "沧州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1310){var c = "廊坊市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1311){var c = "衡水市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1401){var c = "太原市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1402){var c = "大同市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1403){var c = "阳泉市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1404){var c = "长治市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1405){var c = "晋城市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1406){var c = "朔州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1407){var c = "晋中市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1408){var c = "运城市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1409){var c = "忻州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1410){var c = "临汾市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1411){var c = "吕梁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1424){var c = "晋中市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1501){var c = "呼和浩特市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1502){var c = "包头市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1503){var c = "乌海市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1504){var c = "赤峰市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1505){var c = "通辽市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1506){var c = "鄂尔多斯市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1507){var c = "呼伦贝尔市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1508){var c = "巴彦淖尔市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1509){var c = "乌兰察布市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1522){var c = "兴安盟市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1525){var c = "锡林郭勒市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 1529){var c = "阿拉善盟市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2101){var c = "沈阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2102){var c = "大连市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2103){var c = "鞍山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2104){var c = "抚顺市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2105){var c = "本溪市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2106){var c = "丹东市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2107){var c = "锦州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2108){var c = "营口市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2109){var c = "阜新市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2110){var c = "辽阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2111){var c = "盘锦市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2112){var c = "铁岭市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2113){var c = "朝阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2114){var c = "葫芦岛市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2200){var c = "吉林市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2201){var c = "长春市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2202){var c = "吉林市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2203){var c = "四平市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2204){var c = "辽源市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2205){var c = "通化市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2206){var c = "白山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2207){var c = "松原市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2208){var c = "白城市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2224){var c = "延边州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2301){var c = "哈尔滨市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2302){var c = "齐齐哈尔市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2303){var c = "鸡西市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2304){var c = "鹤岗市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2305){var c = "双鸭山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2306){var c = "大庆市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2307){var c = "伊春市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2308){var c = "佳木斯市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2309){var c = "七台河市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2310){var c = "牡丹江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2311){var c = "黑河市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2312){var c = "绥化市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2321){var c = "哈尔滨市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 2327){var c = "大兴安岭市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3100){var c = "上海市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3201){var c = "南京市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3202){var c = "无锡市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3203){var c = "徐州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3204){var c = "常州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3205){var c = "苏州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3206){var c = "南通市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3207){var c = "连云港市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3208){var c = "淮安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3209){var c = "盐城市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3210){var c = "扬州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3211){var c = "镇江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3212){var c = "泰州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3301){var c = "杭州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3302){var c = "宁波市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3303){var c = "温州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3304){var c = "嘉兴市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3305){var c = "湖州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3306){var c = "绍兴市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3307){var c = "金华市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3308){var c = "衢州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3309){var c = "舟山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3310){var c = "台州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3311){var c = "丽水市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3401){var c = "合肥市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3402){var c = "芜湖市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3403){var c = "蚌埠市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3404){var c = "淮南市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3405){var c = "马鞍山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3406){var c = "淮北市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3407){var c = "铜陵市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3408){var c = "安庆市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3410){var c = "黄山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3411){var c = "滁州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3412){var c = "阜阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3413){var c = "宿州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3415){var c = "六安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3416){var c = "亳州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3417){var c = "池州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3418){var c = "宣城市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3422){var c = "宿县市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3501){var c = "福州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3502){var c = "厦门市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3503){var c = "莆田市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3504){var c = "三明市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3505){var c = "泉州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3506){var c = "漳州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3507){var c = "南平市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3508){var c = "龙岩市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3509){var c = "宁德市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3601){var c = "南昌市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3602){var c = "景德镇市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3603){var c = "萍乡市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3604){var c = "九江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3605){var c = "新余市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3606){var c = "鹰潭市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3607){var c = "赣州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3608){var c = "吉安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3609){var c = "宜春市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3610){var c = "抚州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3611){var c = "上饶市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3701){var c = "济南市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3702){var c = "青岛市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3703){var c = "淄博市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3704){var c = "枣庄市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3705){var c = "东营市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3706){var c = "烟台市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3707){var c = "潍坊市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3708){var c = "济宁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3709){var c = "泰安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3710){var c = "威海市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3711){var c = "日照市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3712){var c = "莱芜市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3713){var c = "临沂市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3714){var c = "德州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3715){var c = "聊城市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3716){var c = "滨州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 3717){var c = "菏泽市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4101){var c = "郑州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4102){var c = "开封市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4103){var c = "洛阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4104){var c = "平顶山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4105){var c = "安阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4106){var c = "鹤壁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4107){var c = "新乡市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4108){var c = "焦作市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4109){var c = "濮阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4110){var c = "许昌市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4111){var c = "漯河市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4112){var c = "三门峡市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4113){var c = "南阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4114){var c = "商丘市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4115){var c = "信阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4116){var c = "周口市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4117){var c = "驻马店市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4201){var c = "武汉市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4202){var c = "黄石市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4203){var c = "十堰市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4205){var c = "宜昌市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4206){var c = "襄阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4207){var c = "鄂州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4208){var c = "荆门市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4209){var c = "孝感市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4210){var c = "荆州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4211){var c = "黄冈市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4212){var c = "咸宁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4213){var c = "随州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4228){var c = "恩施州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4301){var c = "长沙市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4302){var c = "株洲市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4303){var c = "湘潭市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4304){var c = "衡阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4305){var c = "邵阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4306){var c = "岳阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4307){var c = "常德市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4309){var c = "益阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4310){var c = "郴州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4311){var c = "永州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4312){var c = "怀化市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4313){var c = "娄底市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4331){var c = "湘西州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4401){var c = "广州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4402){var c = "韶关市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4403){var c = "深圳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4404){var c = "珠海市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4405){var c = "汕头市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4406){var c = "佛山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4407){var c = "江门市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4408){var c = "湛江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4409){var c = "茂名市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4412){var c = "肇庆市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4413){var c = "惠州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4414){var c = "梅州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4415){var c = "汕尾市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4416){var c = "河源市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4417){var c = "阳江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4418){var c = "清远市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4419){var c = "东莞市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4420){var c = "中山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4451){var c = "潮州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4452){var c = "揭阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4453){var c = "云浮市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4501){var c = "南宁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4502){var c = "柳州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4503){var c = "桂林市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4504){var c = "梧州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4505){var c = "北海市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4506){var c = "防城港市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4507){var c = "钦州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4508){var c = "贵港市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4509){var c = "玉林市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4510){var c = "百色市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4511){var c = "贺州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4512){var c = "河池市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4513){var c = "来宾市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4514){var c = "崇左市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4524){var c = "贺州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4601){var c = "海口市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4602){var c = "三亚市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4690){var c = "儋州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 4690){var c = "三沙市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5000){var c = "重庆市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5101){var c = "成都市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5103){var c = "自贡市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5104){var c = "攀枝花市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5105){var c = "泸州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5106){var c = "德阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5107){var c = "绵阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5108){var c = "广元市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5109){var c = "遂宁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5110){var c = "内江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5111){var c = "乐山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5113){var c = "南充市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5114){var c = "眉山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5115){var c = "宜宾市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5116){var c = "广安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5117){var c = "达州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5119){var c = "巴中市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5120){var c = "资阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5134){var c = "凉山州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5201){var c = "贵阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5202){var c = "六盘水市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5203){var c = "遵义市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5204){var c = "安顺市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5205){var c = "毕节市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5206){var c = "铜仁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5223){var c = "黔西南州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5226){var c = "黔东南州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5227){var c = "黔南州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5301){var c = "昆明市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5303){var c = "曲靖市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5304){var c = "玉溪市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5305){var c = "保山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5306){var c = "昭通市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5307){var c = "丽江市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5308){var c = "普洱市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5309){var c = "临沧市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5323){var c = "楚雄州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5325){var c = "红河州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5326){var c = "文山州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5328){var c = "西双版纳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5329){var c = "大理州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5331){var c = "德宏州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5333){var c = "怒江州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5334){var c = "迪庆州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5401){var c = "拉萨市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5421){var c = "昌都市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5422){var c = "山南市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5423){var c = "日喀则市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 5426){var c = "林芝市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6101){var c = "西安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6102){var c = "铜川市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6103){var c = "宝鸡市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6104){var c = "咸阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6105){var c = "渭南市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6106){var c = "延安市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6107){var c = "汉中市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6108){var c = "榆林市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6109){var c = "安康市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6110){var c = "商洛市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6201){var c = "兰州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6202){var c = "嘉峪关市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6203){var c = "金昌市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6204){var c = "白银市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6205){var c = "天水市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6206){var c = "武威市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6207){var c = "张掖市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6208){var c = "平凉市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6209){var c = "酒泉市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6210){var c = "庆阳市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6211){var c = "定西市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6212){var c = "陇南市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6229){var c = "临夏州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6230){var c = "甘南州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6301){var c = "西宁市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6321){var c = "海东市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6322){var c = "海北州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6323){var c = "黄南州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6325){var c = "海南州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6326){var c = "果洛州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6327){var c = "玉树州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6328){var c = "海西州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6401){var c = "银川市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6402){var c = "石嘴山市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6403){var c = "吴忠市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6404){var c = "固原市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6405){var c = "中卫市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6501){var c = "乌鲁木齐市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6502){var c = "克拉玛依市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6521){var c = "吐鲁番市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6522){var c = "哈密市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6523){var c = "昌吉州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6527){var c = "博尔塔拉州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6528){var c = "巴音郭楞市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6530){var c = "克孜勒苏州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6531){var c = "喀什地区市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6532){var c = "和田地区市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6540){var c = "伊犁州市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6542){var c = "塔城地区市"}
+if(number.slice(0,1)+number.slice(1,2)+number.slice(2,3)+number.slice(3,4) == 6590){var c = "石河子市"}
+/* -------------------------------- 
+* 生日
+*--------------------------------  */
+var date = number.slice(6,7)+number.slice(7,8)+number.slice(8,9)+number.slice(9,10)+"年"+number.slice(10,11)+number.slice(11,12)+"月"+number.slice(12,13)+number.slice(13,14)+"日"
+/* -------------------------------- 
+* 性别
+*--------------------------------  */
+if (number.slice(16,17) == 1){var gender = "男"}
+if (number.slice(16,17) == 3){var gender = "男"}
+if (number.slice(16,17) == 5){var gender = "男"}
+if (number.slice(16,17) == 7){var gender = "男"}
+if (number.slice(16,17) == 9){var gender = "男"}
+if (number.slice(16,17) == 2){var gender = "女"}
+if (number.slice(16,17) == 4){var gender = "女"}
+if (number.slice(16,17) == 6){var gender = "女"}
+if (number.slice(16,17) == 8){var gender = "女"}
+if (number.slice(16,17) == 0){var gender = "女"}
 </script>
 <div class="container">
 <form class="cd-form floating-labels">
