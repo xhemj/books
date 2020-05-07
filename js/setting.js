@@ -58,3 +58,7 @@ window.$docsify = {
                 language:'chinese'
                 },
         }
+//Vconsole
+function querystring(r){var e=location.href;e=e.replace("?","?&").split("&");var n="";for(i=1;i<e.length;i++)0==e[i].indexOf(r+"=")&&(n=e[i].replace(r+"=",""));return n};
+document.write("<script src=\"https:\/\/cdn.jsdelivr.net\/gh\/Tencent\/vConsole@latest\/dist\/vconsole.min.js\"><\/script>");
+if(querystring("vc") == "true"){var vconsole = new VConsole()};
