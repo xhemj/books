@@ -1,3 +1,5 @@
+
+
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>身份证真实性检验 - xhemj</title>
@@ -108,8 +110,7 @@ if (number != "") {
 
 <script>
 if (number != "") {
-	if (number.length = 17){
-		if (number.length = 18){
+	if (backcode != "身份证格式或位数不符合规定"){
 		document.write("<fieldset>");
 		document.write("<h3>身份证详细信息：<\/h3>");
 		document.write("<label class=\"cd-label\" for=\"p\">省份</label>");
@@ -121,7 +122,6 @@ if (number != "") {
 		document.write("<label class=\"cd-label\" for=\"p\">生日</label>");
 		document.write("<input type=\"text\" id=\""+Math.ceil(Math.random()*Math.ceil(Math.random()*99999999))+"\" value=\""+date+"\" name=\"date\" AUTOCOMPLETE=\"OFF\"><\/input>");
 		document.write("<\/fieldset>");
-		}
 	}
 };
 </script>
