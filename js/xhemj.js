@@ -1,8 +1,7 @@
 /*--------------------*
- * Console            *
+ * Xhemj Console    *
  *--------------------*/
-console.log("%c ------------⚠--------------","font-size:20px;font-weight:900;");
-console.log("%c  Power BY ⚡ %c xhemj %c ⚡","font-size:20px;font-weight:900;","font-size:20px;color:#C30AFF;font-weight:900;","font-size:20px;font-weight:900;");
-console.log("%c \t ©2020 xhemj","color:#867676;font-size:20px;font-weight:900;");
-console.log("%c ---------------------------","font-size:20px;font-weight:900;");
-console.log("🌎链接："+location.href+"💬");
+xhemjconsole()
+setInterval(xhemjconsole, 10000);
+function xhemjconsole() {
+console.clear();console.log("%c ------------⚠--------------\n%c  Power BY ⚡ %c xhemj %c ⚡\n%c \t ©2020 xhemj\n%c ---------------------------\n%c💬"+location.href,"font-size:20px;font-weight:900;","font-size:20px;font-weight:900;","font-size:20px;color:#C30AFF;font-weight:900;","font-size:20px;font-weight:900;","color:#867676;font-size:20px;font-weight:900;","font-size:20px;font-weight:900;","font-weight:100;")}
