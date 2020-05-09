@@ -1,10 +1,12 @@
-<title>xhemj</title>
+<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
 <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?0673dbbe4e6ea51a92a74e3ba2bc051b";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
+var getCurrentQueue = function () {
+            $.getJSON("https://2b2t.io/api/queue?last=true", (data) => {
+                localStorage.lastChecked = data[0][0];
+                $("h1").text("2b2t queue is " + data[0][1] + " players long");
+                setTimeout(getCurrentQueue, 1000 * 60);
+
+            });
+        };
+getCurrentQueue()
 </script>
