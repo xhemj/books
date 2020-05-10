@@ -4,68 +4,88 @@
 <script src="https://cdn.staticfile.org/highcharts/8.1.0/highcharts.min.js"></script>
 <script src="https://cdn.staticfile.org/highcharts/8.1.0/modules/exporting.min.js"></script>
 <script src="https://code.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
-<div id="container" style="width: 100&; height: 100%; margin: 0 auto"></div>
 <title>xhemj的bilibili数据</title>
 </head>
 <body>
+<div id="container" style="width: 100&; height: 100%; margin: 0 auto"></div>
+<pre id="data" style="display: none;">
+分类,2020年4月,2020年5月
+2020年4月,'','','','','','','','',383,403,457,428,483,465,414,386,352,334,324,292,285,324,297,294,248,263,278,257,272,216
+2020年5月,248,238,260,315,228,244,227,221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</pre>
 <script>
-$("#container").highcharts({
-   title: {
-       text: 'xhemj的bilibili数据'   
-   },
-   subtitle: {
-        text: 'xhemj自2020年4月9日开始统计'
-   },
+var options = {
+	title: {
+		text: 'xhemj的bilibili数据'   
+	},
+	subtitle: {
+		text: 'xhemj自2020年4月9日开始统计'
+	},
 	credits: {
 		text: "xhemj & Highcharts",
-        href: "https://xhemj.js.org/"
+		href: "https://xhemj.js.org/"
 	},
-   xAxis: {
+	xAxis: {
 		title: {
 			text: '日期'
 		},
-       categories: ['1', '2', '3', '4', '5', '6','7', '8', '9', '10',
+		categories: ['1', '2', '3', '4', '5', '6','7', '8', '9', '10',
 		'11', '12', '13', '14', '15', '16','17', '18', '19', '20',
 		'21', '22', '23', '24', '25', '26','27', '28', '29', '30','31']
-   },
-   series:  [
-   //[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      {
-         name: '2020年4月',
-         data: ['','','','','','','','',383,403,457,428,483,465,414,386,352,334,324,292,285,324,297,294,248,263,278,257,272,216]
-      }, 
-      {
-         name: '2020年5月',
-         data: [248,238,260,315,228,244,227,221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      }, 
+	},
+	series: [],
+	//0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+	yAxis: {
+		title: {
+        text: '播放量'
+		},
+		plotLines: [{
+			value: 0,
+			width: 2,
+			color: '#808080'
+		}]
+	}, 
 
-   ],
-   yAxis: {
-      title: {
-         text: '播放量'
-      },
-      plotLines: [{
-         value: 0,
-         width: 2,
-         color: '#808080'
-      }]
-   }, 
+	tooltip: {
+		valueSuffix: '播放'
+	},
 
-   tooltip: {
-      valueSuffix: '播放'
-   },
-
-   legend: {
-      layout: 'vertical',
-      align: 'right',
-      verticalAlign: 'middle',
-      borderWidth: 0
-   },
+	legend: {
+		layout: 'vertical',
+		align: 'right',
+		verticalAlign: 'middle',
+		borderWidth: 0
+	},
 	colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4'],
 	exporting: {
 		filename: 'xhemj的bilibili数据'
 	},
+}
+var csvData = document.getElementById('data').innerHTML;
+var lines = csvData.split('\n');
+Highcharts.each(lines, function(line, lineNo) {
+	var items = line.split(',');
+	if (lineNo == 0) {
+		Highcharts.each(items, function(item, itemNo) {
+			if (itemNo > 0) {
+				options.xAxis.categories.push(item);
+			}
+		});
+	}
+	else {
+		var series = {
+			data: []
+		};
+		Highcharts.each(items, function(item, itemNo) {
+			if (itemNo == 0) {
+				series.name = item;
+			} else {
+				series.data.push(parseFloat(item)); 
+			}
+		});
+		options.series.push(series);
+	}
 });
+$("#container").highcharts(options);
 </script>
 </body>
 </html>
