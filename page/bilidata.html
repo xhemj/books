@@ -2,24 +2,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.staticfile.org/highcharts/8.1.0/highcharts.min.js"></script>
-<script src="https://cdn.staticfile.org/highcharts/8.1.0/modules/offline-exporting.min.js"></script>
+<script src="https://cdn.staticfile.org/highcharts/8.1.0/modules/exporting.min.js"></script>
 <script src="https://code.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
 <div id="container" style="width: 100&; height: 100%; margin: 0 auto"></div>
 <title>xhemj的bilibili数据</title>
 </head>
 <body>
 <script>
-credits: {
-   text: "xhemj & Highcharts",
-   href: "https://xhemj.js.org/"
-    },
-var chart = Highcharts.chart('container', {
+$("#container").highcharts({
    title: {
        text: 'xhemj的bilibili数据'   
    },
    subtitle: {
         text: 'xhemj自2020年4月9日开始统计'
    },
+	credits: {
+		text: "xhemj & Highcharts",
+        href: "https://xhemj.js.org/"
+	},
    xAxis: {
        categories: ['1', '2', '3', '4', '5', '6','7', '8', '9', '10',
 		'11', '12', '13', '14', '15', '16','17', '18', '19', '20',
@@ -58,8 +58,28 @@ var chart = Highcharts.chart('container', {
       verticalAlign: 'middle',
       borderWidth: 0
    },
-	colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4']
-})
+	colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4'],
+	exporting: {
+			buttons: {
+				contextButton: {
+					menuItems: [{
+						text: 'Export to PNG (small)',
+						onclick: function () {
+							this.exportChart({
+								width: 250
+							});
+						}
+					}, {
+						text: 'Export to PNG (large)',
+						onclick: function () {
+							this.exportChart();
+						},
+						separator: false
+					}]
+				}
+			}
+		}
+});
 </script>
 </body>
 </html>
