@@ -6,12 +6,12 @@
   </head>
   <body>
     <form action="?" method="POST">
-      <div class="g-recaptcha" data-callback="Verified" data-sitekey="6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK"></div>
+      <div class="g-recaptcha" data-callback="re" data-sitekey="6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK"></div>
       <br/>
       <input type="submit" value="Submit">
     </form>
 	<script>
-	function Verified(data){
+	function re (data){
 		console.log("https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response="+data);
 		$.getJSON("https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response="+data,function(result){
 		
