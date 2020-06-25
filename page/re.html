@@ -5,13 +5,13 @@
   </head>
   <body>
     <form action="?" method="POST">
-      <div class="g-recaptcha" data-callback="re" data-sitekey="6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK"></div>
+      <div class="g-recaptcha" data-callback="Verified" data-sitekey="6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK"></div>
       <br/>
       <input type="submit" value="Submit">
     </form>
 	<script>
-	function re (){
-	var a = re["g-recaptcha-response"]
+	function Verified(data){
+		console.log(data);
 	}
 	</script>
   </body>
