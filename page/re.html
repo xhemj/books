@@ -2,6 +2,7 @@
   <head>
     <title>reCAPTCHA demo: Simple page</title>
     <script src="https://recaptcha.net/recaptcha/api.js" async defer></script>
+	<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <form action="?" method="POST">
@@ -11,7 +12,10 @@
     </form>
 	<script>
 	function Verified(data){
-		console.log(data);
+		console.log("https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response="+data);
+		$.getJSON("https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response="+data,function(result){
+		
+		}
 	}
 	</script>
   </body>
