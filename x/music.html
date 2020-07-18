@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>xhemj</title>
+</head>
+
+<body>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/xhemj/static/js/download.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/xhemj/static/js/BASE64.min.js"></script>
+    <script>
+        function qs(qs) {
+            var s = location.href;
+            s = s.replace("?", "?&").split("&");
+            var re = "";
+            for (i = 1; i < s.length; i++) {
+                if (s[i].indexOf(qs + "=") == 0) {
+                    re = s[i].replace(qs + "=", "");
+                }
+            }
+            return re;
+        }
+        var base = new BASE64();
+        /*
+        * 下载网易云音乐歌曲
+        * 用法：?id={音乐id}
+        * 2020.07.18
+        */
+        var id = qs("id");
+        $.getJSON("https://api.imjad.cn/cloudmusic/?id=" + id, function (data) {
+            var songurl = data["data"][0]["url"];
+            console.log(songurl);
+            $.getJSON("https://cors.xhemj.workers.dev/http://music.163.com/api/song/detail/?id=" + id + "&ids=%5B" + id + "%5D", function (data) {
+                var songname = data["songs"][0]["name"]
+                var songartist = data["songs"][0]["artists"][0]["name"]
+                console.log(songartist + " - " + songname);
+                download(songurl, songartist + " - " + songname);
+
+            });
+        });
+        var _hmt = _hmt || []; (function () { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?0673dbbe4e6ea51a92a74e3ba2bc051b"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })();
+    </script>
+</body>
+
+</html>
