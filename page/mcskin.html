@@ -7,7 +7,7 @@
 
 <body>
     <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/downloadjs/1.4.8/download.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/xhemj/static/js/download.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/xhemj/static/js/BASE64.min.js"></script>
     <script>
         function qs(qs) {
@@ -33,7 +33,7 @@
                 console.log(skin);
                 var skinurl = skin.split("url")[1].split("\"")[2];
                 console.log(skinurl);
-                download("https://cors.xhemj.workers.dev/" + skinurl);
+                download("https://cors.xhemj.workers.dev/" + skinurl,id);
 
             });
         });
