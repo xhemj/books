@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>xhemj</title>
+</head>
+
+<body>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/xhemj/static/js/download.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/xhemj/static/js/BASE64.min.js"></script>
+    <script>
+        function qs(qs) {
+            var s = location.href;
+            s = s.replace("?", "?&").split("&");
+            var re = "";
+            for (i = 1; i < s.length; i++) {
+                if (s[i].indexOf(qs + "=") == 0) {
+                    re = s[i].replace(qs + "=", "");
+                }
+            }
+            return re;
+        }
+        var base = new BASE64();
+        var id = qs("id");
+        $.getJSON("https://cors.xhemj.workers.dev/https://api.mojang.com/users/profiles/minecraft/" + id, function (data) {
+            var uuid = data["id"];
+            console.log(uuid);
+            $.getJSON("https://cors.xhemj.workers.dev/https://sessionserver.mojang.com/session/minecraft/profile/" + uuid, function (data) {
+                var skinvalue = base.decode(data["properties"][0]["value"]);
+                console.log(skinvalue);
+                var skin = skinvalue;
+                console.log(skin);
+                var skinurl = skin.split("url")[1].split("\"")[2];
+                console.log(skinurl);
+                download("https://cors.xhemj.workers.dev/" + skinurl,id);
+
+            });
+        });
+        var _hmt = _hmt || []; (function () { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?0673dbbe4e6ea51a92a74e3ba2bc051b"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })();
+    </script>
+</body>
+
+</html>
