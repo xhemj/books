@@ -1,4 +1,4 @@
-var ver = 20200704
+var ver = 20200719
 var mingyan = [
 
 //====老王名言====
