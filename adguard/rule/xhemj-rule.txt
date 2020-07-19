@@ -7,7 +7,7 @@
 ||statcounter.com^
 ||googlesyndication.com
 ||users.51.la^
-||51.la^
+||js.users.51.la^
 ||flagcounter.me^
 ||flagcounter.com^
 ||static.hotjar.com^
