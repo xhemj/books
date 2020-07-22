@@ -170,7 +170,7 @@ var mingyan = [
 "Black布莱恪Toy：我们打架受伤，请假一年",
 "Black布莱恪Toy：吹恪之声",
 "Black布莱恪Toy：老王抠脚抠面条",
-""
+"Hihi：巴西！一定是巴西！",
 ""];
 
 
