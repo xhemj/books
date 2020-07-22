@@ -167,7 +167,10 @@ var mingyan = [
 "xhemj：我家没有网啊！",
 "xhemj：视网膜高清屏幕",
 "Black布莱恪Toy：把他放到五楼的办公室",
-
+"Black布莱恪Toy：我们打架受伤，请假一年",
+"Black布莱恪Toy：吹恪之声",
+"Black布莱恪Toy：老王抠脚抠面条",
+""
 ""];
 
 
