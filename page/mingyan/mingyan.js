@@ -1,4 +1,4 @@
-var ver = 20200719
+var ver = 20200722
 var mingyan = [
 
 //====老王名言====
@@ -155,7 +155,9 @@ var mingyan = [
 "生物吴老师：在我讲台上往下看，一个个都和沙雕似的",
 
 
+
 //====其它一些杂七杂八的东西====
+"李·杰哥：我早就猜到……",
 "Oranjezelv：ERSS",
 "Oranjezelv：耳散伞",
 "Black布莱恪Toy：IYAMAYA:用心创造惊叹物品",
