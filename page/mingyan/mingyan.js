@@ -166,7 +166,8 @@ var mingyan = [
 "小柳DJ：WDNMD！！！",
 "xhemj：我家没有网啊！",
 "xhemj：视网膜高清屏幕",
-"Black布莱恪Toy：五楼的办公室",
+"Black布莱恪Toy：把他放到五楼的办公室",
+
 ""];
 
 
