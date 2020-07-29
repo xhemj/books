@@ -1,0 +1,4 @@
+baidu.com###s_main
+www.baidu.com###s_main
+sogou.com###QRcode-footer
+www.sogou.com###QRcode-footer
