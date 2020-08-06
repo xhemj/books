@@ -1,95 +1,96 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/highcharts/8.1.0/highcharts.min.js"></script>
-    <script src="https://cdn.staticfile.org/highcharts/8.1.0/modules/exporting.min.js"></script>
-    <script src="https://cdn.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
-    <title>xhemj的bilibili数据</title>
-    <script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?0673dbbe4e6ea51a92a74e3ba2bc051b";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();</script>
-    <script>var pw="";var pw=prompt('请输入密码:');if (pw != 'xhemj') {alert("密码不正确");window.location.href="https://xhemj.js.org/?from=bilidata-pw="+pw;window.open("","_self").close()}</script>
-    </head>
-    <body>
-    <div id="container" style="width: 100%; height: 100%; margin: 0 auto"></div>
-    <!-- 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 -->
-    <pre id="data" style="display: none;">
-    分类,2020年4月,2020年5月,2020年6月,2020年7月
-    2020年4月,'','','','','','','','',383,403,457,428,483,465,414,386,352,334,324,292,285,324,297,294,248,263,278,257,272,216
-    2020年5月,248,238,260,315,228,244,227,221,213,206,207,192,179,235,230,208,248,175,149,172,175,180,261,262,154,153,131,123,173,239,217
-    2020年6月,174,129,115,104,150,226,208,158,120,154,133,126,199,240,155,152,129,138,155,214,219,145,176,129,202,275,238,152,181,204
-    2020年7月,170,154,205,228,221,209,187,178,226,183,183,232,202,218,207,250,222,0</pre>
-    <script>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/highcharts/8.1.0/highcharts.min.js"></script>
+  <script src="https://cdn.staticfile.org/highcharts/8.1.0/modules/exporting.min.js"></script>
+  <script src="https://cdn.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+  <title>xhemj的bilibili数据</title>
+  <script>var _hmt = _hmt || []; (function () { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?0673dbbe4e6ea51a92a74e3ba2bc051b"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })();
+    var pw = ""; var pw = prompt('请输入密码:');</script>
+</head>
+
+<body>
+  <div id="container" style="width: 100%; height: 100%; margin: 0 auto"></div>
+  <!-- 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 -->
+  <script>
     var options = {
+      title: {
+        text: 'xhemj的bilibili数据'
+      },
+      subtitle: {
+        text: 'xhemj自2020年4月9日开始统计'
+      },
+      credits: {
+        text: "xhemj & Highcharts",
+        href: "https://xhemj.js.org/"
+      },
+      xAxis: {
         title: {
-            text: 'xhemj的bilibili数据'   
+          text: '日期'
         },
-        subtitle: {
-            text: 'xhemj自2020年4月9日开始统计'
+        categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
+          '11', '12', '13', '14', '15', '16', '17', '18', '19', '20',
+          '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31']
+      },
+      series: [],
+      yAxis: {
+        title: {
+          text: '播放量'
         },
-        credits: {
-            text: "xhemj & Highcharts",
-            href: "https://xhemj.js.org/"
-        },
-        xAxis: {
-            title: {
-                text: '日期'
-            },
-            categories: ['1', '2', '3', '4', '5', '6','7', '8', '9', '10',
-            '11', '12', '13', '14', '15', '16','17', '18', '19', '20',
-            '21', '22', '23', '24', '25', '26','27', '28', '29', '30','31']
-        },
-        series: [],
-        yAxis: {
-            title: {
-            text: '播放量'
-            },
-            plotLines: [{
-                value: 0,
-                width: 2,
-                color: '#808080'
-            }]
-        }, 
-    
-        tooltip: {
-            valueSuffix: '播放'
-        },
-    
-        legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
-            borderWidth: 0
-        },
-        colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4'],
-        exporting: {
-            filename: 'xhemj的bilibili数据'
-        },
+        plotLines: [{
+          value: 0,
+          width: 2,
+          color: '#808080'
+        }]
+      },
+
+      tooltip: {
+        valueSuffix: '播放'
+      },
+
+      legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle',
+        borderWidth: 0
+      },
+      colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4'],
+      exporting: {
+        filename: 'xhemj的bilibili数据'
+      },
     }
-    var csvData = document.getElementById('data').innerHTML;
-    var lines = csvData.split('\n');
-    Highcharts.each(lines, function(line, lineNo) {
-        var items = line.split(',');
-        if (lineNo == 0) {
-            Highcharts.each(items, function(item, itemNo) {
-                if (itemNo > 0) {
-                    options.xAxis.categories.push(item);
-                }
-            });
-        }
-        else {
-            var series = {
-                data: []
-            };
-            Highcharts.each(items, function(item, itemNo) {
-                if (itemNo == 0) {
-                    series.name = item;
-                } else {
-                    series.data.push(parseFloat(item)); 
-                }
-            });
-            options.series.push(series);
-        }
+    var s = document.createElement('script');
+    s.src = "https://" + window.location.host + window.location.pathname + pw + "-bilidata.js"
+    document.head.appendChild(s)
+    var lines = bilidata;
+    Highcharts.each(lines, function (line, lineNo) {
+      var items = line.split(',');
+      if (lineNo == 0) {
+        Highcharts.each(items, function (item, itemNo) {
+          if (itemNo > 0) {
+            options.xAxis.categories.push(item);
+          }
+        });
+      }
+      else {
+        var series = {
+          data: []
+        };
+        Highcharts.each(items, function (item, itemNo) {
+          if (itemNo == 0) {
+            series.name = item;
+          } else {
+            series.data.push(parseFloat(item));
+          }
+        });
+        options.series.push(series);
+      }
     });
     $("#container").highcharts(options);
-    </script>
-    </body>
-    </html>
+  </script>
+</body>
+
+</html>
