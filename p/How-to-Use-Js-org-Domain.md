@@ -71,11 +71,11 @@ Your site is published at https://xhemj.github.io/
 记得回到要申请的仓库里新建`CHAME`文件，在里面输入你的.js.org域名</br>
 之后到[https://github.com/js-org/js.org](https://github.com/js-org/js.org)的`Pull requests`就可以看到你的申请</br>
 如下：</br>
-![](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/js-org/js-org-pull-open.png)</br>
+![](https://cdn.jsdelivr.net/gh/xhemj/static@master/img/js-org/js-org-pull-open.png)</br>
 一个小建议：因为时差，最好在晚上12点前提交，这样审核人员刚好起床，可以进行审核</br>
 之后等待过关后：</br>
-![](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/js-org/js-org-pull-merged.png)</br>
-![](https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/img/js-org/js-org-pull-merged-info.png)</br>
+![](https://cdn.jsdelivr.net/gh/xhemj/static@master/img/js-org/js-org-pull-merged.png)</br>
+![](https://cdn.jsdelivr.net/gh/xhemj/static@master/img/js-org/js-org-pull-merged-info.png)</br>
 就成功啦！！</br>
 要是没通过，要注意的是网站不能太简单太难看，最好和js沾点边</br>
 一半做博客的都可以过的</br>
