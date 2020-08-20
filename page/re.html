@@ -1,26 +1,47 @@
 <html>
-  <head>
-    <title>reCAPTCHA demo: Simple page</title>
-		<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://recaptcha.net/recaptcha/api.js" async defer></script>
-  </head>
-  <body>
-    <form action="?" method="POST">
-      <div class="g-recaptcha" data-callback="re" data-sitekey="6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK"></div>
-      <br/>
-      <input type="submit" value="Submit">
+
+<head>
+  <title>reCAPTCHA</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+
+<body>
+  <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+  <script src="http://www.recaptcha.net/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
+  <script>
+    function qs(qs) {
+      var s = location.href;
+      s = s.replace("?", "?&").split("&");
+      var re = "";
+      for (i = 1; i < s.length; i++) {
+        if (s[i].indexOf(qs + "=") == 0) {
+          re = s[i].replace(qs + "=", "");
+        }
+      }
+      return re;
+    }
+    var onloadCallback = function () {
+      grecaptcha.render('reCAPTCHA', {
+        'sitekey': '6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK'
+      });
+    };
+    $.getJSON("https://cors.xhemj.workers.dev/https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response=" + qs("g-recaptcha-response"), function (data) {
+      console.log(data["success"])
+      if (data["success"]) {
+        alert("==========\n验证通过！！\n==========");
+        $("#info").text("验证通过！！")
+      }
+    });
+  </script>
+  <center>
+    <form action="./" method="GET">
+      <div id="reCAPTCHA"></div>
+      <br>
+      <input type="submit" value="提交">
     </form>
-	<script>
-	function re (data){
-		console.log("https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response="+data);
-		$.getJSON("https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response="+data,function(result){
-		if (result["success"] = true) {
-			alert("success")
-			}else{
-			alert("no")
-			}
-		}
-	}
-	</script>
-  </body>
+    <div id="info"></div>
+  </center>
+</body>
+
 </html>
