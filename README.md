@@ -1,4 +1,6 @@
 # 欢迎访问 **Xhemj文档中心**
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fxhemj%2Fbooks.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fxhemj%2Fbooks?ref=badge_shield)
+
 
 > 这只是Xhemj的文档中心而已，也没有什么别的。
 
@@ -16,3 +18,7 @@
 
 
 #### -BY：Xhemj-
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fxhemj%2Fbooks.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fxhemj%2Fbooks?ref=badge_large)
