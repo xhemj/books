@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <title>whois</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+  <div id="info" style="text-align: center;"></div>
+  <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+
+  <script>
+    function qs(qs) {
+      var s = location.href;
+      s = s.replace("?", "?&").split("&");
+      var re = "";
+      for (i = 1; i < s.length; i++) {
+        if (s[i].indexOf(qs + "=") == 0) {
+          re = s[i].replace(qs + "=", "");
+        }
+      }
+      return re;
+    }
+    $.getJSON("https://cors.xhemj.workers.dev/https://lookup.icann.org/api/config", function (data) {
+      //console.log(data["bootstrapUrl"]);
+      var listUrl = data["bootstrapUrl"];
+      var originDomainName = qs("domain");
+      var originDomain = originDomainName.split(".")[1];
+      //console.log(originDomain);
+      $.getJSON("https://cors.xhemj.workers.dev/" + listUrl, function (data) {
+        //console.log(data["services"]);
+        var domainNameServers = data["services"];
+        var serviceDomain = "";
+        for (i = 0; i < domainNameServers.length; i++) {
+          for (n = 0; n < domainNameServers[i][0].length; n++) {
+            serviceDomain += domainNameServers[i][0][n] + "|";
+            if (originDomain == domainNameServers[i][0][n]) {
+              //console.log("i:" + i);
+              //console.log(domainNameServers[i][1]);
+              var domainNSUrl = domainNameServers[i][1];
+              $.getJSON("https://cors.xhemj.workers.dev/" + domainNSUrl + "domain/" + originDomainName, function (data) {
+                //console.log(data);
+
+                //NameService
+                var domainInfo_NameService = "";
+                for (i = 0; i < data["nameservers"].length; i++) {
+                  domainInfo_NameService += i * 1 + 1 + "：" + data["nameservers"][i]["ldhName"] + "</br>";
+                }
+                console.log(domainInfo_NameService);
+
+                //Status 
+                var domainInfo_Status = "";
+                for (i = 0; i < data["status"].length; i++) {
+                  domainInfo_Status += i * 1 + 1 + "：" + data["status"][i] + "</br>";
+                }
+                console.log(domainInfo_Status);
+
+                //UnicodeName
+                var domainInfo_UnicodeName = data["unicodeName"];
+                console.log(domainInfo_UnicodeName);
+
+                //Events:registration/expiration
+
+                var domainInfo_Events_registration = data["events"][0]["eventDate"];
+                console.log(domainInfo_Events_registration);
+                var domainInfo_Events_expiration = data["events"][1]["eventDate"];
+                console.log(domainInfo_Events_expiration);
+
+
+                //show info
+                $("#info").html(
+                  originDomainName + "的Whois信息是：</br>"
+                  + "域名状态：</br>" + domainInfo_Status + "</br>"
+                  + "DNS服务器：</br>" + domainInfo_NameService + "</br>"
+                  + "域名注册时间：" + domainInfo_Events_registration + "</br>"
+                  + "域名到期时间：" + domainInfo_Events_expiration
+                )
+
+              })
+            }
+          }
+        }
+        //console.log(serviceDomain)
+      })
+    });
+  </script>
+</body>
+
+</html>
