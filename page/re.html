@@ -1,47 +1,26 @@
 <html>
 
 <head>
-  <title>reCAPTCHA</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>reCAPTCHA</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 
 <body>
-  <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://www.recaptcha.net/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.recaptcha.net/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 
-  <script>
-    function qs(qs) {
-      var s = location.href;
-      s = s.replace("?", "?&").split("&");
-      var re = "";
-      for (i = 1; i < s.length; i++) {
-        if (s[i].indexOf(qs + "=") == 0) {
-          re = s[i].replace(qs + "=", "");
-        }
-      }
-      return re;
-    }
-    var onloadCallback = function () {
-      grecaptcha.render('reCAPTCHA', {
-        'sitekey': '6LfW1usUAAAAAN-V6a1qnjgYQFRE7s19I0qiwBnK'
-      });
-    };
-    $.getJSON("https://cors.xhemj.workers.dev/https://recaptcha.net/recaptcha/api/siteverify?secret=6LfW1usUAAAAAEyoE1YD8ssyYvutwJTrL0D_vVpz&response=" + qs("g-recaptcha-response"), function (data) {
-      console.log(data["success"])
-      if (data["success"]) {
-        alert("==========\n验证通过！！\n==========");
-        $("#info").text("验证通过！！")
-      }
-    });
-  </script>
-  <center>
-    <form action="re.html" method="GET">
-      <div id="reCAPTCHA"></div>
-      <br>
-      <input type="submit" value="提交">
-    </form>
-    <div id="info"></div>
-  </center>
+    <script>
+        function qs(szJW1) { var oBrG2 = location['\x68\x72\x65\x66']; oBrG2 = oBrG2['\x72\x65\x70\x6c\x61\x63\x65']("\x3f", "\x3f\x26")['\x73\x70\x6c\x69\x74']("\x26"); var LFtklGia3 = ""; for (i = 1; i < oBrG2['\x6c\x65\x6e\x67\x74\x68']; i++) { if (oBrG2[i]['\x69\x6e\x64\x65\x78\x4f\x66'](szJW1 + "\x3d") == 0) { LFtklGia3 = oBrG2[i]['\x72\x65\x70\x6c\x61\x63\x65'](szJW1 + "\x3d", "") } } return LFtklGia3 } var onloadCallback = function () { grecaptcha['\x72\x65\x6e\x64\x65\x72']('\x72\x65\x43\x41\x50\x54\x43\x48\x41', { '\x73\x69\x74\x65\x6b\x65\x79': '\x36\x4c\x66\x57\x31\x75\x73\x55\x41\x41\x41\x41\x41\x4e\x2d\x56\x36\x61\x31\x71\x6e\x6a\x67\x59\x51\x46\x52\x45\x37\x73\x31\x39\x49\x30\x71\x69\x77\x42\x6e\x4b' }) }; if (typeof (Storage) !== "\x75\x6e\x64\x65\x66\x69\x6e\x65\x64") { var GwaXNX5 = "\x67\x6f"; if (qs(GwaXNX5) !== "") { localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\x67\x6f\x75\x72\x6c", qs(GwaXNX5)); location['\x68\x72\x65\x66'] = location['\x6f\x72\x69\x67\x69\x6e'] + location['\x70\x61\x74\x68\x6e\x61\x6d\x65'] } setInterval(function check() { if ($("\x23\x67\x2d\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2d\x72\x65\x73\x70\x6f\x6e\x73\x65")['\x76\x61\x6c']() !== "") { $['\x67\x65\x74\x4a\x53\x4f\x4e']("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x63\x6f\x72\x73\x2e\x78\x68\x65\x6d\x6a\x2e\x77\x6f\x72\x6b\x65\x72\x73\x2e\x64\x65\x76\x2f\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2e\x6e\x65\x74\x2f\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2f\x61\x70\x69\x2f\x73\x69\x74\x65\x76\x65\x72\x69\x66\x79\x3f\x73\x65\x63\x72\x65\x74\x3d\x36\x4c\x66\x57\x31\x75\x73\x55\x41\x41\x41\x41\x41\x45\x79\x6f\x45\x31\x59\x44\x38\x73\x73\x79\x59\x76\x75\x74\x77\x4a\x54\x72\x4c\x30\x44\x5f\x76\x56\x70\x7a\x26\x72\x65\x73\x70\x6f\x6e\x73\x65\x3d" + $("\x23\x67\x2d\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2d\x72\x65\x73\x70\x6f\x6e\x73\x65")['\x76\x61\x6c'](), function (Jr6) { if (Jr6["\x73\x75\x63\x63\x65\x73\x73"]) { $("\x23\x69\x6e\x66\x6f")['\x74\x65\x78\x74']("\u9a8c\u8bc1\u901a\u8fc7\uff01\uff01"); location['\x68\x72\x65\x66'] = localStorage['\x67\x65\x74\x49\x74\x65\x6d']("\x67\x6f\x75\x72\x6c") } }) } }, 100) } else { window["\x61\x6c\x65\x72\x74"]("\u62b1\u6b49\uff0c\u60a8\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bbf\u95ee\u672c\u7f51\u9875") }
+    </script>
+    <center>
+        <form action="re.html" method="GET">
+            <div id="reCAPTCHA"></div>
+            <br>
+            <input type="submit" value="提交" style="display: none;">
+        </form>
+        <div id="info"></div>
+    </center>
 </body>
 
 </html>
