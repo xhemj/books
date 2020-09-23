@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/t/(.*)",
-      "destination": "https://url.xhemj.now.sh/$1"
-    },
-    {
       "source": "/(.*)",
       "destination": "/$1"
     }
