@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/s/(.*)",
+      "destination": "https://ss.now.sh/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1"
     }
