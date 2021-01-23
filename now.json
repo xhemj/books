@@ -9,6 +9,10 @@
       "destination": "https://page.xhemj.now.sh/$1"
     },
     {
+      "source": "/~(.*)",
+      "destination": "https://ss.now.sh/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1"
     }
